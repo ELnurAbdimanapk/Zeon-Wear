@@ -12,6 +12,7 @@ function showMessage() {
     buttonText.textContent ="Закрыть"
   } else {
     messageText.textContent = 'Успешно отправлено';
+    messageText.style.color ="#000000"
     buttonText.textContent="Хорошо"
     
   }
