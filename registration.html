@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/registration.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="nav">
+          <a href="/" class="phone text-p-20px-500-montserrat"
+            >8 (800) 201-06-19</a
+          >
+
+          <ul class="nav__list">
+            <li class="nav__list-item">
+              <a href="" class="nav-social_link"
+                ><img class="nav-social_img" src="./images/instagram.png"
+              /></a>
+            </li>
+            <li class="nav__list-item">
+              <a href="" class="nav-social_link"
+                ><img class="nav-social_img" src="../images/telegram.png"
+              /></a>
+            </li>
+            <li class="nav__list-item">
+              <a href="" class="nav-social_link"
+                ><img class="nav-social_img" src="../images/facebook.png"
+              /></a>
+            </li>
+            <li class="nav__list-item">
+              <a href="" class="nav-social_link"
+                ><img class="nav-social_img" src="../images/vcontakte.png"
+              /></a>
+            </li>
+            <li class="nav__list-item">
+              <a href="" class="nav-social_link"
+                ><img class="nav-social_img" src="../images/youtube.png"
+              /></a>
+            </li>
+          </ul>
+
+          <a href="/" class="logo text-h1-30px-575-montserrat">Zeon Wear</a>
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="main__container">
+        <div class="main__left">
+          <a href="/" class="logo text-h1-30px-575-montserrat">Zeon Wear</a>
+          <p class="logo text-p-20px-500-montserrat">by zeon</p>
+        </div>
+        <div class="main__registration">
+          <div class="main__registration-block">
+            <h1 class="main__registration-title text-h1-20px-700-montserrat">
+              Регистрация
+            </h1>
+            <p class="main__registration-text text-p-13px-400-montserrat">
+              Есть аккаунт?
+              <a
+                class="main__registration-text link text-p-13px-400-montserrat-blue"
+                >Войти</a
+              >
+            </p>
+            <div class="registration-block">
+              <div class="registration-block__left">
+                <label
+                  class="registration__label-name text-p-13px-400-montserrat-120"
+                  >Имя*</label
+                ><br />
+                <input
+                  class="registration__label-input"
+                  type="text"
+                  placeholder="Андрей"
+                /><br />
+                <label
+                  class="registration__label-surname text-p-13px-400-montserrat-120"
+                  >Фамилия*</label
+                ><br />
+                <input
+                  class="registration__label-input"
+                  type="text"
+                  placeholder="Васильев"
+                /><br />
+                <label
+                  class="registration__label-email text-p-13px-400-montserrat-120"
+                  >e-mail*</label
+                ><br />
+                <input
+                  class="registration__label-input"
+                  type="text"
+                  placeholder="mail@example.com"
+                /><br />
+                <label
+                  class="registration__label-date text-p-13px-400-montserrat-gray"
+                  >Дата Рождения</label
+                ><br />
+                <div class="registration-date">
+                  <div class="registartion-day">
+                    <label class="day text-p-13px-400-montserrat-gray"
+                      >День</label
+                    ><br />
+                    <input
+                      class="registration__input-day text-p-13px-400-montserrat"
+                      placeholder="02"
+                      type="number"
+                    />
+                  </div>
+                  <div class="registartion__input-month">
+                    <label class="text-p-13px-400-montserrat-gray">Месяц</label
+                    ><br />
+                    <div class="registration__container-month">
+                      <select id="registration__select-month">
+                        <optgroup class="registartion__optgroup-month">
+                          <option
+                            class="registration__option-month text-p-13px-400-montserrat"
+                          >
+                            Январь
+                          </option>
+                          <option class="text-p-13px-400-montserrat">
+                            Февраль
+                          </option>
+                        </optgroup>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="registartion-day">
+                    <label class="text-p-13px-400-montserrat-gray">Год</label
+                    ><br />
+                    <input
+                      class="registration__input-year text-p-13px-400-montserrat"
+                      placeholder="1998"
+                      type="number"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="registration-block__right">
+                <select class="registration__select-female">
+                  <option class="text-p-13px-400-montserrat-gray">Пол</option>
+                  <option>Male</option>
+                </select>
+                <input class="registration__anana" placeholder="anana">
+                <select class="registration__label-input">
+                  <option class="text-p-13px-400-montserrat-gray">Любимые виды спорта</option>
+                </select>
+                <input class="registration__label-input" placeholder="Придумайте Пароль*">
+                <input class="registration__label-input" placeholder="Придумайте Пароль*">
+              </div>
+            </div>
+            <div class="registration__button">
+              <div><input type="checkbox"><label class="text-p-13px-400-montserrat">Подписаться на новости и акции</label></div>
+              <br>
+              <button class="registration__btn">Зарегистрироваться</button>
+              <p><a class=" otmena text-p-13px-400-montserrat-gray">Отмена</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section__container">
+        <section class="categories-block">
+          <input class="categories-block__input" placeholder="Поиск" />
+          <div class="categories-block__text">
+            <div class="categories-block__first-part">
+              <p
+                class="categories-block__text-item text-p-18px-500-montserrat-sesondblack first"
+              >
+                Новинки
+              </p>
+  
+              <p
+                class="categories-block__text-item text-p-18px-500-montserrat-sesondblack second"
+              >
+                Команды
+              </p>
+              <p
+                class="categories-block__text-item text-p-18px-500-montserrat-sesondblack"
+              >
+                Мужчинам
+              </p>
+            </div>
+            <div><img src="./images/picon.png" /></div>
+  
+            <div class="categories-block__second-part">
+              <p
+                class="categories-block__text-item text-p-18px-500-montserrat-sesondblack third"
+              >
+                Женщинам
+              </p>
+              <p
+                class="categories-block__text-item text-p-18px-500-montserrat-sesondblack fourth"
+              >
+                Дети
+              </p>
+              <p
+                class="categories-block__text-item text-p-18px-500-montserrat-sesondblack fifth"
+              >
+                Распродажа
+              </p>
+            </div>
+          </div>
+          <div class="categories-block__icons">
+            <span
+              ><img class="categories-block__icons-item" src="./images/heart.png"
+            /></span>
+            <span
+              ><img
+                class="categories-block__icons-item"
+                src="./images/shopping-cart.png"
+            /></span>
+            <span
+              ><img
+                class="categories-block__icons-item"
+                src="./images/log-in.png"
+            /></span>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>

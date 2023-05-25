@@ -1,0 +1,204 @@
+.container {
+  max-width: 192rem;
+  position: relative;
+}
+.nav {
+  display: flex;
+  width: 660px;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 122.8rem;
+  margin-top: 2.4rem;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  width: 20.4rem;
+}
+a {
+  text-decoration: none;
+}
+
+/* Main */
+
+.main__container {
+  background-image: url(../images/registration.png);
+  width: 185.6rem;
+  height: 87.3rem;
+  border-radius: 2.4rem;
+  margin: 1.6rem 0 0 3.2rem;
+  position: relative;
+}
+.main__left {
+  position: absolute;
+  margin: 6.4rem 0 0 6.4rem;
+}
+.main__registration {
+  width: 69.6rem;
+  height: 60.6rem;
+  position: absolute;
+  left: 92.8rem;
+  top: 13.4rem;
+  background: #ffffff;
+  border-radius: 16px;
+  padding-left: 2.4rem;
+  padding-top: 2.4rem;
+}
+.main__registration-text {
+  margin-top: 0.8rem;
+}
+.registration__label-input {
+  width: 31.6rem;
+  height: 4.4rem;
+  background: #ffffff;
+  border: 1px solid #cddaf1;
+  border-radius: 1.6rem;
+}
+.registration-block {
+  margin-top: 2.4rem;
+  display: flex;
+  justify-content: space-between;
+}
+.registration__label-input {
+  margin-top: 0.4rem;
+}
+.registration__label-surname,
+.registration__label-email {
+  margin-top: 1rem;
+  display: inline-block;
+}
+.registration-date {
+  display: flex;
+  justify-content: space-between;
+}
+.registration__label-date {
+  margin-top: 1.8rem;
+  display: inline-block;
+}
+
+.registration__input-day,
+.registration__input-year {
+  width: 7.2rem;
+  height: 4.4rem;
+  border: 0.1rem solid #cddaf1;
+  border-radius: 1.6rem;
+}
+#registration__select-month {
+  width: 16.4rem;
+  height: 4.4rem;
+  border-radius: 1.6rem;
+  border: 0.1rem solid #cddaf1;
+  max-width: 16.4rem;
+}
+#registration__select-month option:hover {
+  width: 16.4rem;
+  height: 4.4rem;
+  border-radius: 1.6rem;
+  border: 0.1rem solid #cddaf1;
+  max-width: 16.4rem;
+}
+#registration__select-month option:checked {
+  width: 16.4rem;
+  height: 27rem;
+  border: 0.1rem solid #cddaf1;
+  border-radius: 1.6rem;
+  background-color: #054edb;
+}
+
+.registration__select-month:active {
+  border: 0.1rem solid #054edb;
+}
+.registration__select-female {
+  width: 12.1rem;
+  height: 4.4rem;
+  border: 0.1rem solid #cddaf1;
+  border-radius: 1.6rem;
+}
+
+.registration__anana {
+  width: 18.6rem;
+  height: 4.4rem;
+  border: 1px solid #cddaf1;
+  border-radius: 16px;
+}
+.registration__label-input {
+    margin-top: 1rem;
+}
+.registration-block__right{
+    margin-left: 1.5rem;
+}
+.registration__btn {
+    width: 31.5rem;
+height: 4.4rem;
+background: #171717;
+border-radius: 1.6rem;
+color: #ffffff;
+
+}
+.otmena {
+}
+
+.registration__button{
+    width: 315px;
+height: 116px;
+margin: auto;
+text-align: center;
+margin-top: 3.2rem;
+display: flex;
+flex-direction: column;
+align-content: space-between;
+}
+
+/* Section */
+
+  
+.section__container {
+    max-width: 185.6rem;
+    margin-left: 3.2rem;
+    margin-top: 2.4rem;
+    background-color: var(--text-color-white);
+    margin-bottom: 10rem;
+  }
+  .categories-block {
+    display: flex;
+    justify-content: space-between;
+  }
+  .categories-block__text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 99.4rem;
+  }
+  
+  .categories-block__input {
+    border: 1px solid #d4e3ff;
+    margin: 1.5rem 0 0 1.6rem;
+    width: 31.6rem;
+    height: 4.4rem;
+    background: #ffffff;
+    border: 1px solid #cddaf1;
+    border-radius: 1.6rem;
+  }
+  .categories-block__icons {
+    display: flex;
+    justify-content: flex-end;
+    width: 32rem;
+    align-items: center;
+    
+  }
+  .first {
+      margin-left: 20rem;
+  }
+  .categories-block__icons img{
+      margin-right: 4rem;
+  }
+  
+  .categories-block__first-part,
+  .categories-block__second-part {
+    display: flex;
+    justify-content: space-between;
+  }
+  .categories-block__text-item{
+      margin-left: 2.4rem;
+  }
