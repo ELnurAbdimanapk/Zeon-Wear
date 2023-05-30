@@ -1,0 +1,35 @@
+.nav {
+    display: flex;
+    width: 660px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 122.8rem;
+    margin-top: 2.4rem;
+  }
+  
+  .nav__list {
+    display: flex;
+    justify-content: space-between;
+    width: 20.4rem;
+  }
+  a {
+    text-decoration: none;
+  }
+
+  @media screen and (max-width: 320px){
+    .container {
+        width: 32rem;
+        position: relative;
+      }
+    
+      .nav__list-item,
+      .phone,
+      .log-in__icon {
+        display: none;
+      }
+      .logo {
+        position: absolute;
+        top: 1rem;
+        left: 2rem;
+      }
+  }

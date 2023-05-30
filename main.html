@@ -6,11 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Main</title>
     <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/section-container.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
     <link rel="stylesheet" href="./styles/main.css" />
-    <link rel="stylesheet" href="./styles/registration.css" />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
   </head>
   <body>
@@ -34,11 +41,11 @@
             </li>
             <li class="nav__list-item">
               <a href="" class="nav-social_link"
-                ><img class="nav-social_img" src="../images/facebook.png"
+                ><img class="nav-social_img mobile__display-none" src="../images/facebook.png"
               /></a>
             </li>
             <li class="nav__list-item">
-              <a href="" class="nav-social_link"
+              <a href="" class="nav-social_link mobile__display-none"
                 ><img class="nav-social_img" src="../images/vcontakte.png"
               /></a>
             </li>
@@ -57,13 +64,11 @@
 
       <div class="main-block__container">
         <div class="main-block__images">
-          <div class="main-block__image-item images-block-first">
-            <div class="image-overlay-first"></div>
-            <img src="./images/images-block1.png"></div>
-          <div class="main-block__image-item images-block-second"><div class="image-overlay-second"></div><img src="./images/images-block2.png"></div>
-          <div class="main-block__image-item images-block-third" ><div class="image-overlay-third"></div><img src="./images/images-block3.png"></div>
-          <div class="main-block__image-item images-block-fourth"><div class="image-overlay-fourth"></div><img src="./images/images-block4.png"></div>
-          <div class="main-block__image-item images-block-fifth"><div class="image-overlay-fifth"></div><img src="./images/images-block5.png"></div>
+          <div class="main-block__image-item images-block-first"><div class="image-overlay image-overlay-first"></div><img class="main-block__img-item" src="./images/images-block1.png"></div>
+          <div class="main-block__image-item images-block-second"><div class=" image-overlay image-overlay-second"></div><img class="main-block__img-item" src="./images/images-block2.png"></div>
+          <div class="main-block__image-item images-block-third" ><div class=" image-overlay image-overlay-third"></div><img class="main-block__img-item" src="./images/images-block3.png"></div>
+          <div class="main-block__image-item images-block-fourth"><div class=" image-overlay image-overlay-fourth"></div><img class="main-block__img-item" src="./images/images-block4.png"></div>
+          <div class="main-block__image-item images-block-fifth"><div class="image-overlay image-overlay-fifth"></div><img class="main-block__img-item" src="./images/images-block5.png"></div>
         </div>
 
         <div class="main-block__categories">
@@ -95,101 +100,112 @@
           <div class="frame"><img class="frame__img" src="./images/Frame 1696.png"></div>
         </div>
         </div>
-      <div class="section__container">
-        <div  class="categories-block">
-          <input class="categories-block__input" placeholder="Поиск" />
-          <div class="categories-block__text">
-            <div class="categories-block__first-part">
-              <p
-                class="categories-block__text-item text-p-18px-500-montserrat-sesondblack first"
-              >
-                Новинки
-              </p>
-              <p
-                class="categories-block__text-item text-p-18px-500-montserrat-sesondblack second"
-              >
-                Команды
-              </p>
-              <p
-                class="categories-block__text-item text-p-18px-500-montserrat-sesondblack"
-              >
-                Мужчинам
-              </p>
+        
+        <div class="section__container">
+          <section class="categories-block">
+            <input class="categories-block__input" placeholder="Поиск" />
+            <i class="fa-solid fa-magnifying-glass fa-2xl"></i>
+    
+            <div class="categories-block__text">
+              <div class="categories-block__first-part">
+                <p
+                  class="categories-block__text-item text-p-18px-500-montserrat-sesondblack first"
+                >
+                  Новинки
+                </p>
+    
+                <p
+                  class="categories-block__text-item text-p-18px-500-montserrat-sesondblack second"
+                >
+                  Команды
+                </p>
+                <p
+                  class="categories-block__text-item text-p-18px-500-montserrat-sesondblack"
+                >
+                  Мужчинам
+                </p>
+              </div>
+              <div class="burger__menu">
+                <i class="fa-solid fa-bars fa-2xl"></i>
+              </div>
+              <div class="search__img"><img src="./images/picon.png" /></div>
+    
+              <div class="categories-block__second-part">
+                <p
+                  class="categories-block__text-item text-p-18px-500-montserrat-sesondblack third"
+                >
+                  Женщинам
+                </p>
+                <p
+                  class="categories-block__text-item text-p-18px-500-montserrat-sesondblack fourth"
+                >
+                  Дети
+                </p>
+                <p
+                  class="categories-block__text-item text-p-18px-500-montserrat-sesondblack fifth"
+                >
+                  Распродажа
+                </p>
+              </div>
             </div>
-            <div><img src="./images/picon.png" /></div>
-            <div class="categories-block__second-part">
-              <p
-                class="categories-block__text-item text-p-18px-500-montserrat-sesondblack third"
-              >
-                Женщинам
-              </p>
-              <p
-                class="categories-block__text-item text-p-18px-500-montserrat-sesondblack fourth"
-              >
-                Дети
-              </p>
-              <p
-                class="categories-block__text-item text-p-18px-500-montserrat-sesondblack fifth"
-              >
-                Распродажа
-              </p>
+            <div class="categories-block__icons">
+              <span
+                ><img
+                  class="categories-block__icons-item heart__icon"
+                  src="./images/heart.png"
+              /></span>
+              <span
+                ><img
+                  class="categories-block__icons-item shopping-cart__icon"
+                  src="./images/shopping-cart.png"
+              /></span>
+              <span
+                ><img
+                  class="categories-block__icons-item log-in__icon"
+                  src="./images/log-in.png"
+              /></span>
             </div>
+          </section>
           </div>
-          <div class="categories-block__icons">
-            <span
-              ><img class="categories-block__icons-item" src="./images/heart.png"
-            /></span>
-            <span
-              ><img
-                class="categories-block__icons-item"
-                src="./images/shopping-cart.png"
-            /></span>
-            <span
-              ><img
-                class="categories-block__icons-item"
-                src="./images/log-in.png"
-            /></span>
-          </div>
-        </div>
-      </div>
+          
       <footer>
         <div class="footer__container">
           <div class="footer-block-first">
-            <a href="/" class="phone text-p-20px-500-montserrat"
+            <a href="/" class="footer__phone text-p-20px-500-montserrat"
             >8 (800) 201-06-19</a
           >
-          <p class="text-p-20px-500-montserrat">mail@example.com</p>
+          <p class="footer__email text-p-20px-500-montserrat">mail@example.com</p>
 
-          <ul class="nav__list">
+          <ul class="footer__nav__list">
             <li class="nav__list-item">
-              <a href="" class="nav-social_link"
+              <a href="" class="footer__nav-social_link"
                 ><img class="nav-social_img" src="./images/instagram.png"
               /></a>
             </li>
             <li class="nav__list-item">
-              <a href="" class="nav-social_link"
+              <a href="" class="footer__nav-social_link"
                 ><img class="nav-social_img" src="../images/telegram.png"
               /></a>
             </li>
             <li class="nav__list-item">
-              <a href="" class="nav-social_link"
+              <a href="" class="footer__nav-social_link"
                 ><img class="nav-social_img" src="../images/facebook.png"
               /></a>
             </li>
             <li class="nav__list-item">
-              <a href="" class="nav-social_link"
+              <a href="" class="footer__nav-social_link"
                 ><img class="nav-social_img" src="../images/vcontakte.png"
               /></a>
             </li>
             <li class="nav__list-item">
-              <a href="" class="nav-social_link"
+              <a href="" class="footer__nav-social_link"
                 ><img class="nav-social_img" src="../images/youtube.png"
               /></a>
             </li>
           </ul>
           <div class="footer__logo">
             <a href="/" class="footer-logo text-h1-22px-575-montserrat">Zeon Wear</a>
-            <p class="logo text-p-13px-400-montserrat-120">by zeon</p>
+            <p class="footer__logo text-p-13px-400-montserrat-120">by zeon</p>
           </div>
           </div>
           <div class="footer-block-second">
@@ -211,5 +227,9 @@
           </div>
         </div>
       </footer>
+      <script
+      src="https://kit.fontawesome.com/6d7c112d81.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
