@@ -155,8 +155,7 @@
   }
 
   .nav__list-item,
-  .phone,
-  .log-in__icon {
+  .phone {
     display: inline;
   }
 
@@ -223,7 +222,8 @@
   }
   .main-block__brands-block {
     text-align: center;
-    width: 320px;
+    width: 280px;
+    margin: auto;
   }
   .main-block__brands {
     margin: 10px auto 0;

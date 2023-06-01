@@ -1,97 +1,136 @@
 html {
-    font-size: 62.5%;
-  }
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    border: none;
-    outline: none;
+  font-size: 62.5%;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
   /* background: #E5E5E5; */
+}
+body {
+  background: #e5e5e5;
+}
 
-  }
-  body{
-    background: #E5E5E5;
-  }
-  
-  :root {
-    --text-color: #000000;
-    --text-color-white: #ffffff;
-    --text-color-blue: #054edb;
-    --text-color-gray: #8b96b1;
-    --text-color-second-black: #171717;
-  }
-  .text-h1-22px-575-montserrat{
-    font: 575 2.2rem/2.7rem"Montserrat";
-    color: var(--text-color);
-  }
-  .text-h1-20px-700-montserrat {
-    font: 700 2rem/150% "Montserrat";
-    color: var(--text-color);
-  }
-  
-  .text-p-20px-500-montserrat {
-    font: 500 2rem/2.4rem "Montserrat";
-    color: var(--text-color);
-  }
-  .text-p-20px-500-montserrat-white {
-    font: 500 2rem/2.4rem "Montserrat";
-    color: var(--text-color-white);
-  }
-  .text-p-14px-500-montserrat-white {
-    font: 500 1.4rem/150% "Montserrat";
-    color: var(--text-color-white);
-  }
-  .text-p-14px-500-montserrat-gray {
-    font: 400 1.4rem/1.7rem "Montserrat";
-    color: var(--text-color-gray);
-  }
-  .text-p-14px-400-montserrat {
-    font: 500 1.4rem/1.7rem "Montserrat";
-    color: var(--text-color-second-black);
-  }
-  .text-p-14px-400-montserrat-blue {
-    font: 400 1.4rem/1.7rem "Montserrat";
-    color: #032D80
-  }
-  .text-p-18px-500-montserrat-sesondblack {
-    font: 500 1.8rem/2.2rem "Montserrat";
-    color: var(--text-color-second-black);
-  }
-  
-  .text-h1-30px-575-montserrat {
-    font: 575 3rem/3.7rem "Montserrat";
-    color: var(--text-color);
-    text-transform: lowercase;
-  }
-  .text-h1-30px-575-montserrat-white {
-    font: 575 3rem/3.7rem "Montserrat";
-    text-transform: lowercase;
-    color: var(--text-color-white);
-  }
-  .text-p-13px-400-montserrat {
-    font: 400 1.3rem/150% "Montserrat";
-    color: var(--text-color);
-  }
-  .text-p-13px-400-montserrat-120 {
-    font: 400 1.3rem/120% "Montserrat";
-    color: var(--text-color);
-  }
-  .text-p-13px-400-montserrat-blue {
-    font: 400 1.3rem/150% "Montserrat";
-    color: var(--text-color-blue);
-  }
-  .text-p-13px-400-montserrat-gray {
-    font: 400 1.3rem/150% "Montserrat";
-    color: var(--text-color-gray);
-  }
+:root {
+  --text-color: #000000;
+  --text-color-white: #ffffff;
+  --text-color-blue: #054edb;
+  --text-color-gray: #8b96b1;
+  --text-color-second-black: #171717;
+}
 
-  @media screen and (max-width: 320px) {
-    body {
-      background-color: #ffffff;
-      max-width: 32rem;
-    }
+/* Font STyles */
+/* 30 */
+.text-h1-30px-575-montserrat {
+  font: 575 3rem/3.7rem "Montserrat";
+  color: var(--text-color);
+  text-transform: lowercase;
+}
+.text-h1-30px-575-montserrat-white {
+  font: 575 3rem/3.7rem "Montserrat";
+  text-transform: lowercase;
+  color: var(--text-color-white);
+}
+/* 22 */
+.text-h1-22px-575-montserrat {
+  font: 575 2.2rem/2.7rem "Montserrat";
+  color: var(--text-color);
+}
+/* 20 */
+.text-h1-20px-700-montserrat {
+  font: 700 2rem/150% "Montserrat";
+  color: var(--text-color);
+}
 
+.text-p-20px-500-montserrat {
+  font: 500 2rem/2.4rem "Montserrat";
+  color: var(--text-color);
+}
+.text-p-20px-500-montserrat-white {
+  font: 500 2rem/2.4rem "Montserrat";
+  color: var(--text-color-white);
+}
+/* 18 */
+.text-p-18px-500-montserrat-sesondblack {
+  font: 500 1.8rem/2.2rem "Montserrat";
+  color: var(--text-color-second-black);
+}
+.text-p-18px-600-montserrat-secondblack {
+  font: 600 1.8rem/125% "Montserrat";
+  color: var(--text-color-second-black);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+
+/* 16 */
+
+.text-p-16px-600-montserrat {
+  font: 600 1.6rem/2rem "Montserrat";
+  color: var(--text-color);
+}
+/* 15 */
+.text-p-15px-600-montserrat-white {
+  font: 600 1.4rem/1.8rem "Montserrat";
+  color: var(--text-color);
+}
+.text-p-15px-600-montserrat-gray {
+  font: 600 1.4rem/1.8rem "Montserrat";
+  color: var(--text-color-gray);
+}
+
+/* 14 */
+
+.text-p-14px-500-montserrat-white {
+  font: 500 1.4rem/150% "Montserrat";
+  color: var(--text-color-white);
+}
+.text-p-14px-500-montserrat-gray {
+  font: 500 1.4rem/1.7rem "Montserrat";
+  color: var(--text-color-gray);
+}
+.text-p-14px-400-montserrat {
+  font: 500 1.4rem/1.7rem "Montserrat";
+  color: var(--text-color-second-black);
+}
+.text-p-14px-400-montserrat-blue {
+  font: 400 1.4rem/1.7rem "Montserrat";
+  color: #032d80;
+}
+
+/* 13 */
+
+.text-p-13px-400-montserrat {
+  font: 400 1.3rem/150% "Montserrat";
+  color: var(--text-color);
+}
+.text-p-13px-400-montserrat-120 {
+  font: 400 1.3rem/120% "Montserrat";
+  color: var(--text-color);
+}
+.text-p-13px-500-montserrat {
+  font: 500 1.3rem/1.6rem "Montserrat";
+  color: var(--text-color);
+}
+.text-p-13px-400-montserrat-blue {
+  font: 400 1.3rem/150% "Montserrat";
+  color: var(--text-color-blue);
+}
+.text-p-13px-400-montserrat-gray {
+  font: 400 1.3rem/150% "Montserrat";
+  color: var(--text-color-gray);
+}
+.text-p-13px-600-montserrat-gray {
+  font: 600 1.3rem/1.6rem "Montserrat";
+  color: var(--text-color-gray);
+}
+
+@media screen and (max-width: 320px) {
+  body {
+    background-color: #ffffff;
   }
+}

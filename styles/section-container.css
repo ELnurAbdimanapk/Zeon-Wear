@@ -72,6 +72,7 @@
 
 
   @media screen and (max-width: 320px){
+    
     input,
   .main__authorization-button {
     width: 27.2rem;
@@ -125,5 +126,12 @@
   .fa-magnifying-glass {
     top: 2.4rem;
     left: 24rem;
+  }
+  .log-in__icon{
+    display: none;
+  }
+  /* Reset */
+  .main__reset-text {
+    width: 27.2rem;
   }
   }

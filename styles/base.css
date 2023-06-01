@@ -1,0 +1,25 @@
+.container {
+    max-width: 192rem;
+    position: relative;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  input {
+    width: 31.6rem;
+    height: 4.4rem;
+    background: #ffffff;
+    border: 1px solid #cddaf1;
+    border-radius: 1.6rem;
+  }
+  
+
+  @media screen and (max-width: 320px) {
+    .container {
+        width: 32rem;
+        position: relative;
+      }
+
+  }
