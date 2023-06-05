@@ -213,10 +213,15 @@
 }
 
 /* Product */
-.products__row {
+#products__row {
   margin-top: 2.2rem;
+  width: 1496px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.product-item{
+  margin:1.6rem 1.6rem 1.6rem 0;
 }
 .product-item-img {
   position: relative;
@@ -302,8 +307,8 @@
     width: 28rem;
     margin: auto;
   }
-  .products__row {
-    width: 28rem;
+  #products__row {
+    width: 31rem;
     display: flex;
     flex-wrap: wrap;
   }
