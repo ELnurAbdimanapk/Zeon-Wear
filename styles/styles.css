@@ -96,13 +96,18 @@ body {
 }
 /* 15 */
 .text-p-15px-600-montserrat-white {
-  font: 600 1.4rem/1.8rem "Montserrat";
+  font: 600 1.5rem/1.8rem "Montserrat";
+  color: var(--text-color);
+}
+.text-p-15px-700-montserrat {
+  font: 600 1.5rem/150% "Montserrat";
   color: var(--text-color);
 }
 .text-p-15px-600-montserrat-gray {
-  font: 600 1.4rem/1.8rem "Montserrat";
+  font: 600 1.5rem/1.8rem "Montserrat";
   color: var(--text-color-gray);
 }
+
 
 /* 14 */
 
@@ -148,6 +153,10 @@ body {
 .text-p-13px-400-montserrat-blue {
   font: 400 1.3rem/150% "Montserrat";
   color: var(--text-color-blue);
+}
+.text-p-13px-400-montserrat {
+  font: 400 1.3rem/16px"Montserrat";
+  color: var(--text-color-second-black);
 }
 .text-p-13px-400-montserrat-gray {
   font: 400 1.3rem/150% "Montserrat";
