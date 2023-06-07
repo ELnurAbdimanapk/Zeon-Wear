@@ -22,6 +22,7 @@
   <link rel="stylesheet" href="./styles/navbar.css" />
   <link rel="stylesheet" href="./styles/footer.css" />
   <link rel="stylesheet" href="./styles/main.css" />
+  <link rel="stylesheet" href="./styles/filter.css" />
   <link rel="stylesheet" href="./styles/man-category.css" />
 </head>
 <!-- Ищвн -->
@@ -45,6 +46,7 @@
 <!-- Main -->
   <main class="man__main">
     <div class="category__block-category">
+      <!-- Bashy Filter -->
       <!-- Категория -->
       <div class="dropdown">
         <div class="dropdown-selection text-p-15px-600-montserrat-white ">Категория<img class="arrow-down" src="./images/Down.png"></div>
@@ -79,35 +81,35 @@
 <div class="dropdown game__category">
   <div class="dropdown-selection text-p-15px-600-montserrat-white ">Виды спорта <img class="arrow-down" src="./images/Down.png"></div>
   <div class="dropdown-options">
-      <div class="option">
+  <div class="option">
         <input type="checkbox" id="football">
           <label for="option1" class="text-p-13px-400-montserrat-120">Футбол</label>
-      </div>
-      <div class="option">
+  </div>
+  <div class="option">
           <input type="checkbox" id="mini-football">
           <label for="option2" class="text-p-13px-400-montserrat-120">Мини-футбол</label>
-      </div>
-      <div class="option">
+  </div>
+  <div class="option">
         <input type="checkbox" id="voleyball">
         <label for="option2" class="text-p-13px-400-montserrat-120">Волейбол</label>
-    </div>
-    <div class="option">
+  </div>
+  <div class="option">
       <input type="checkbox" id="athletics">
       <label for="option2" class="text-p-13px-400-montserrat-120">Легкая атлетика</label>
   </div>
   <div class="option">
     <input type="checkbox" id="gandball">
     <label for="option2" class="text-p-13px-400-montserrat-120">Гандбол</label>
-</div>
-<div class="option">
+  </div>
+  <div class="option">
   <input type="checkbox" id="fitness">
   <label for="option2" class="text-p-13px-400-montserrat-120">Фитнес</label>
-</div>
-<div class="option">
+  </div>
+  <div class="option">
   <input type="checkbox" id="regby">
   <label for="option2" class="text-p-13px-400-montserrat-120">Регби</label>
-</div>
-<div class="option">
+  </div>
+  <div class="option">
   <input type="checkbox" id="yoga">
   <label for="option2" class="text-p-13px-400-montserrat-120">Йога</label>
 </div>
@@ -132,7 +134,6 @@
     </div>
   </div>
 </div>
-
 <!-- Size -->
 <div class="search__brand">
   <div class="dropdown-selection text-p-15px-600-montserrat-white ">Размер<img class="arrow-down" src="./images/Down.png"></div>
@@ -156,7 +157,6 @@
   </div>
   <p class="tablitsa ">Таблица размеров</p>
 </div>
-
 <!-- Material -->
 <div class="dropdown imitation-leather ">
   <div class="dropdown-selection text-p-15px-600-montserrat-white ">Материал<img class="arrow-down" src="./images/Down.png"></div>
@@ -191,9 +191,7 @@
 </div>
   </div>
 </div>
-
 <!-- Color -->
-
 <div class="search__brand">
   <div class="dropdown-selection  text-p-15px-600-montserrat-white ">Цвет<img class="arrow-down" src="./images/Down.png"></div>
   <div class="color-box">
@@ -210,11 +208,8 @@
     <div class="button__color dark-gray"></div>
   </div>
 </div>
-
 </div>
-
-
-<!-- Категория Футер -->
+<!-- End Filter PArt -->
 <div class="man__category">
   <div class="man__category-container">
     <div class="man__category-title">
@@ -222,8 +217,14 @@
       <div class="man__category-p">
         <p class="man__category__title text-p-14px-500-montserrat-gray ">Главная/<span>Мужчины/</span>Top flex</p>
         <button class="button__filter text-p-14px-400-montserrat mobile_display ">Фильтры</button>
-        <button class=" button__sort text-p-14px-400-montserrat">Сортировка</button>
-
+        <select class=" button__sort text-p-14px-400-montserrat">
+            <option class=" text-p-14px-400-montserrat">Сортировка</option>
+            <option class=" text-p-14px-400-montserrat">Популярности</option>
+            <option class=" text-p-14px-400-montserrat">Цене</option>
+            <option class=" text-p-14px-400-montserrat">Новинкам</option>
+            <option class=" text-p-14px-400-montserrat">Скидкам</option>
+            <option class=" text-p-14px-400-montserrat">Рекомендованные</option>
+        </select>
       </div>
     </div>
     <div class="main-block__categories">
@@ -239,15 +240,12 @@
       <button class="main-block__button">Мячи</button>
       <button class="main-block__button">Бутсы</button>
     </div>
-
     <!-- Product -->
       <div class="products" id="products__row"></div>
-
     <!-- Last -->
   </div>
 </div>
   </main>
-
       <!-- Footer -->
       <footer>
         <div class="footer__container">

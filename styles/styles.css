@@ -35,6 +35,18 @@ body {
   text-transform: lowercase;
   color: var(--text-color-white);
 }
+/* 24 */
+.text-h1-24px-700-montserrat {
+  font: 700 2.4rem/2.9rem "Montserrat";
+  color: var(--text-color);
+  text-transform: uppercase;
+}
+.text-h1-24px-500-montserrat-gray {
+  font: 500 2.4rem/2.9rem "Montserrat";
+  color: var(--text-color-gray);
+  text-transform: uppercase;
+}
+
 /* 22 */
 .text-h1-22px-575-montserrat {
   font: 575 2.2rem/2.7rem "Montserrat";
@@ -44,6 +56,11 @@ body {
 .text-h1-20px-700-montserrat {
   font: 700 2rem/150% "Montserrat";
   color: var(--text-color);
+}
+.text-h1-20px-600-montserrat-upp {
+  font: 600 2rem/125% "Montserrat";
+  color: var(--text-color);
+  text-transform: uppercase;
 }
 
 .text-p-20px-500-montserrat {
@@ -73,6 +90,10 @@ body {
   font: 600 1.6rem/2rem "Montserrat";
   color: var(--text-color);
 }
+.text-h1-16px-700-montserrat {
+  font: 700 1.6rem/2rem "Montserrat";
+  color: var(--text-color);
+}
 /* 15 */
 .text-p-15px-600-montserrat-white {
   font: 600 1.4rem/1.8rem "Montserrat";
@@ -91,6 +112,14 @@ body {
 }
 .text-p-14px-500-montserrat-gray {
   font: 500 1.4rem/1.7rem "Montserrat";
+  color: var(--text-color-gray);
+}
+.text-p-14px-500-montserrat {
+  font: 500 1.4rem/1.7rem "Montserrat";
+  color: var(--text-color);
+}
+.text-p-14px-400-montserrat-gray {
+  font: 400 1.4rem/150% "Montserrat";
   color: var(--text-color-gray);
 }
 .text-p-14px-400-montserrat {
