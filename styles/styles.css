@@ -166,6 +166,17 @@ body {
   font: 600 1.3rem/1.6rem "Montserrat";
   color: var(--text-color-gray);
 }
+.text-p-13px-700-montserrat {
+  font: 700 1.3rem/1.6rem "Montserrat";
+  color: var(--text-color-second-black);
+}
+
+/* 12 */
+
+.text-p-12px-400-montserrat{
+  font: 400 1.2rem/150% "Montserrat";
+  color: #2B2B2B;
+}
 
 @media screen and (max-width: 320px) {
   body {
