@@ -1,0 +1,137 @@
+main {
+  display: flex;
+  justify-content: flex-start;
+}
+.main-profile {
+  width: 1496px;
+  height: 835px;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 20.5px 32px;
+  margin-left: 2.4rem;
+  margin-bottom: 1.85rem;
+}
+.profile {
+  display: flex;
+  justify-content: flex-start;
+}
+.profile-image {
+  width: 192px;
+  height: 192px;
+  background-image: url("/images/008-user-2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #cddaf1;
+  border-radius: 16px;
+}
+.main-profile-p {
+  margin: 12px 0 32px 0;
+}
+
+.photo-dowwload {
+  display: flex;
+  width: 192px;
+  height: 32px;
+  padding: 8px 28.5px;
+}
+.photo-dowwload img {
+  margin-right: 8px;
+}
+/* About Me */
+.about-me {
+  margin: 0 3.5rem 0 3.5rem;
+}
+.about-me h1 {
+  text-transform: uppercase;
+  margin-bottom: 1.2rem;
+}
+.about-me__input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 12px;
+  width: 316px;
+  height: 44px;
+  background: #ffffff;
+  border: 1px solid #cddaf1;
+  border-radius: 16px;
+  margin-bottom: 1.6rem;
+}
+
+.birth-date {
+  display: flex;
+  justify-content: space-between;
+  width: 316px;
+  height: 44px;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+.birth-day,
+.birth-month,
+.birth-year {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 12px;
+  width: 72px;
+  height: 44px;
+  background: #ffffff;
+  border: 1px solid #cddaf1;
+  border-radius: 16px;
+}
+.birth-month{
+  width: 164px;
+  height: 44px;
+  margin-right: 16px;
+}
+.dom, .kvartira{
+  width: 154px;
+height: 44px;
+background: #FFFFFF;
+border: 1px solid #CDDAF1;
+border-radius: 16px;
+}
+.about-me-dom{
+  display: flex;
+  justify-content: space-between;
+}
+.save-btn{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 20px;
+gap: 10px;
+width: 316px;
+height: 44px;
+background: #8B96B1;
+border-radius: 16px;
+color: #ffffff;
+}
+
+.profile-password{
+  width: 316px;
+height: 193px;
+
+}
+
+.change__password {
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 20px 8px 16px;
+gap: 10px;
+width: 192px;
+height: 32px;
+background: #054EDB;
+border-radius: 16px;
+color: #FFFFFF;
+margin-top: 12px;
+}
+.password__title{
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
