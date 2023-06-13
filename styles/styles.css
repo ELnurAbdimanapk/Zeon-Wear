@@ -24,6 +24,12 @@ body {
 }
 
 /* Font STyles */
+/* 48 */
+.text-h1-48px-800-montserrat {
+  font:800 4.8rem/125% "Montserrat";
+  text-transform: uppercase;
+  color:var(--text-color);
+}
 /* 30 */
 .text-h1-30px-575-montserrat {
   font: 575 3rem/3.7rem "Montserrat";
@@ -34,6 +40,14 @@ body {
   font: 575 3rem/3.7rem "Montserrat";
   text-transform: lowercase;
   color: var(--text-color-white);
+}
+/* 28 */
+.text-p-28px-600-montserrat {
+  font: 600 2.8rem/150% "Montserrat";
+  color: var(--text-color-second-black);
+  text-align: center;
+letter-spacing: 0.08em;
+
 }
 /* 24 */
 .text-h1-24px-700-montserrat {
@@ -92,6 +106,10 @@ body {
 
 .text-p-16px-600-montserrat {
   font: 600 1.6rem/2rem "Montserrat";
+  color: var(--text-color);
+}
+.text-p-16px-400-montserrat {
+  font: 400 1.6rem/150% "Montserrat";
   color: var(--text-color);
 }
 .text-p-16px-600-montserrat {

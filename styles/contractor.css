@@ -1,0 +1,122 @@
+.main {
+  width: 1392px;
+  background: #ffffff;
+  border-radius: 16px;
+  margin: 1.6rem 0 3.2rem 26.4rem;
+}
+
+.section__header {
+  width: 1392px;
+  height: 697px;
+  position: relative;
+  background-image: url("/images/Rectangle\ 796.png");
+  border-radius: 16px 16px 0 0;
+}
+
+.section__title {
+  padding: 32px;
+  gap: 10px;
+  position: absolute;
+  width: 898px;
+  height: 184px;
+  left: 247px;
+  top: 236px;
+  text-align: center;
+}
+.section__button {
+  position: absolute;
+  top: 44rem;
+  left: 56.7rem;
+  gap: 10px;
+  color: #ffffff;
+  width: 257px;
+  height: 56px;
+  background: #171717;
+  border-radius: 16px;
+}
+
+.contractor-inf__first {
+  padding: 0px;
+  gap: 24px;
+  width: 1082px;
+  height: 216px;
+  margin: 9.1rem 0 6rem 15.5rem;
+}
+.preimushestvo{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 125%;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+color: #054EDB;
+margin: 0 0 3.2rem 15.5rem;
+}
+.strana{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+width: 1238px;
+height: 425px;
+margin-left: 77px;
+}
+.strana-header{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 112px;
+  line-height: 100%;
+  text-align: center;
+  color: #171717;
+  opacity: 0.2;
+}
+.strana-item{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 0px 0px 56px;
+gap: 24px;
+width: 400px;
+height: 425px;
+}
+
+/* Predlojeniye */
+
+.predlojeniye {
+width: 1392px;
+height: 624px;
+background: url('/images/Rectangle\ 797.png');
+padding: 248px 134px;
+}
+.predlojeniye h1{
+  width: 452px;
+height: 120px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 125%;
+text-transform: uppercase;
+color: #171717;
+}
+.predlojeniye button{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 24px;
+gap: 10px;
+width: 187px;
+height: 56px;
+background: #054EDB;
+border-radius: 16px;
+color: #ffffff;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 125%;
+margin-top: 42px;
+}
