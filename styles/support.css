@@ -83,4 +83,9 @@ main {
   .burger__menu{
     display: inline-block;
   }
+  .section__container{
+    position: absolute;
+    top: 1000px;
+    left: 0;
+  }
 }

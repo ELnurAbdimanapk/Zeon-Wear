@@ -42,28 +42,28 @@
   height: 216px;
   margin: 9.1rem 0 6rem 15.5rem;
 }
-.preimushestvo{
-  font-family: 'Montserrat';
-font-style: normal;
-font-weight: 800;
-font-size: 48px;
-line-height: 125%;
-letter-spacing: 0.08em;
-text-transform: uppercase;
-color: #054EDB;
-margin: 0 0 3.2rem 15.5rem;
+.preimushestvo {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 125%;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #054edb;
+  margin: 0 0 3.2rem 15.5rem;
 }
-.strana{
+.strana {
   display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: flex-start;
-width: 1238px;
-height: 425px;
-margin-left: 77px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 1238px;
+  height: 425px;
+  margin-left: 77px;
 }
-.strana-header{
-  font-family: 'Montserrat';
+.strana-header {
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 800;
   font-size: 112px;
@@ -72,51 +72,148 @@ margin-left: 77px;
   color: #171717;
   opacity: 0.2;
 }
-.strana-item{
+.strana-item {
   display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px 0px 0px 56px;
-gap: 24px;
-width: 400px;
-height: 425px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px 0px 56px;
+  gap: 24px;
+  width: 400px;
+  height: 425px;
 }
 
 /* Predlojeniye */
 
 .predlojeniye {
-width: 1392px;
-height: 624px;
-background: url('/images/Rectangle\ 797.png');
-padding: 248px 134px;
+  width: 1392px;
+  height: 624px;
+  background: url("/images/Rectangle\ 797.png");
+  padding: 248px 134px;
 }
-.predlojeniye h1{
+.predlojeniye h1 {
   width: 452px;
-height: 120px;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 800;
-font-size: 48px;
-line-height: 125%;
-text-transform: uppercase;
-color: #171717;
+  height: 120px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 125%;
+  text-transform: uppercase;
+  color: #171717;
 }
-.predlojeniye button{
+.predlojeniye button {
   display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 8px 24px;
-gap: 10px;
-width: 187px;
-height: 56px;
-background: #054EDB;
-border-radius: 16px;
-color: #ffffff;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 125%;
-margin-top: 42px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 24px;
+  gap: 10px;
+  width: 187px;
+  height: 56px;
+  background: #054edb;
+  border-radius: 16px;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125%;
+  margin-top: 42px;
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    display: none;
+  }
+  .section__header {
+    width: 320px;
+    height: 427px;
+    background-image: url("/images/Rectangle\ 79.png");
+    border-radius: 0px;
+    margin-top: 0px;
+  }
+  .main {
+    width: 320px;
+  }
+  .section__title {
+    position: absolute;
+    width: 320px;
+    height: 157px;
+    left: 0px;
+    top: 176px;
+    font-size: 25px;
+    line-height: 125%;
+  }
+  .section__button {
+    position: absolute;
+    width: 161px;
+    height: 44px;
+    left: calc(50% - 161px / 2 - 0.5px);
+    top: calc(50% - 44px / 2 + 142.5px);
+  }
+  .contractor-inf__first h1 {
+    width: 280px;
+    height: 100px;
+    font-size: 20px;
+  }
+  .contractor-inf__first p {
+    width: 280px;
+    height: 180px;
+    font-size: 13px;
+  }
+  .preimushestvo {
+    display: none;
+    margin-bottom: 21px;
+  }
+  .strana {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+height: 918px;
+margin-left: 20px;
+  }
+  .strana-item {
+    padding: 0px 0px 48px;
+    gap: 24px;
+    width: 280px;
+    height: 306px;
+    margin-top: 16px;
+    margin-bottom: 48px;
+  }
+  .strana-header {
+    color: #171717;
+    font-size: 72px;
+  }
+  .strana-item:nth-child(3) {
+    width: 262px;
+    height: 120px;
+    font-size: 13px;
+  }
+  .predlojeniye {
+    background-image: url("/images/Rectangle\ 797_mobile.png");
+    width: 320px;
+    height: 359px;
+    background-repeat: no-repeat;
+    padding: 140px 20px;
+    margin-top: 150px;
+  }
+  .predlojeniye h1 {
+    font-size: 24px;
+    width: 226px;
+  }
+  .predlojeniye button {
+    margin-top: -50px;
+  }
+  .main,
+  .preimushestvo {
+    margin: 0;
+    padding: 0;
+  }
+  .contractor-inf__first{
+    margin-top: 72px;
+    margin-left: 20px;
+    margin-bottom: 73px;
+  }
 }

@@ -30,6 +30,11 @@ body {
   text-transform: uppercase;
   color:var(--text-color);
 }
+.text-h1-48px-800-montserrat-white {
+  font:800 4.8rem/125% "Montserrat";
+  text-transform: uppercase;
+  color:var(--text-color-white);
+}
 /* 30 */
 .text-h1-30px-575-montserrat {
   font: 575 3rem/3.7rem "Montserrat";
