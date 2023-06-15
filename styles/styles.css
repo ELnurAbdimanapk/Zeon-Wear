@@ -220,5 +220,7 @@ letter-spacing: 0.08em;
 @media screen and (max-width: 320px) {
   body {
     background-color: #ffffff;
+    
   }
+
 }

@@ -1,50 +1,80 @@
-.komanda__container{
-display: flex;
-justify-content: space-around;
-margin-top: 1.6rem;
-margin-left: 25px;
+.komanda__container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1.6rem;
+  margin-left: 25px;
 }
 .komanda__container img {
-    width: 610.67px;
-    height: 811px;
-    z-index: 0;
+  width: 610.67px;
+  height: 811px;
+  z-index: 0;
 }
-.komanda-first{
-    position: relative;
-
+.komanda-first {
+  position: relative;
 }
 .komanda-first::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: #242424;
-    mix-blend-mode: color;
-    z-index: 1;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #242424;
+  mix-blend-mode: color;
+  z-index: 1;
 }
-.komanda__container p{
-    position: absolute;
-    width: 343px;
-    height: 90px;
-    left: 54px;
-    top: 678px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 36px;
-    line-height: 125%;
+.komanda__container p {
+  position: absolute;
+  width: 343px;
+  height: 90px;
+  left: 54px;
+  top: 678px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 125%;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+}
+.komanda__container {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 320px) {
+    main{
+        padding: 0;
+        margin: 0;
+    }
+  .header {
+    display: none;
+  }
+  .komanda__container {
+    width: 320px;
     display: flex;
-    align-items: flex-end;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    text-shadow:
-    -1px -1px 0 #fff, 
-     1px -1px 0 #fff,
-    -1px 1px 0 #fff,
-     1px 1px 0 #fff;
-}
-.komanda__container{
-margin-bottom: 10px;
+    flex-direction: column;
+   margin: 0;
+
+  }
+  .komanda-first img {
+    width: 320px;
+    height: 425px;
+    border-radius: 0px;
+  }
+  .komanda__container p  {
+    font-size: 18px;
+    width: 175px;
+    height: 46px;
+    left: 24px;
+    top: 355px;
+  }
+  .section__container{
+    position: absolute;
+    top: 200rem;
+    left: 0;
+  }
 }
