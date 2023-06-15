@@ -251,3 +251,90 @@ margin-left: 31.5px;
   margin: 20px 0 0 92px;
   color: #054EDB;
 }
+
+@media screen and (max-width: 320px) {
+  .logo{
+    display: none;
+  }
+  .cart__container{
+    padding: 0px;
+    width: 280px;
+    margin: 0px;
+    margin-left: 20px;
+  }
+  .cart-block__container{
+    width: 280px;
+    height: auto;
+  }
+ .cart-item__box{
+  display: flex;
+  flex-direction: column;
+  height: 176px;
+ }
+
+ /* Oformleni */
+ .oformleniye__block{
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+
+ }
+  .cart-count{
+    margin-left: -150px;
+    margin-top: 60px;
+  }
+  .dostupno{
+    margin-left: -5px;
+  }
+  .cart-item__block{
+    margin-bottom: 100px;
+  }
+  .cart__price{
+    margin-top: -70px;
+    margin-left: 60px;
+  }
+  .cart__size{
+    display: flex;
+    flex-direction: column;
+  }
+  .cart__container{
+    order: 1;
+  }
+  .oformleniye{
+    order: 2;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    margin-left:20px;
+  }
+  .zakaz__block{
+    order: 3;
+  }
+  main{
+    flex-direction: column;
+    width: 320px;
+  }
+  .oformleniye-zakaza {
+    display: flex;
+    flex-direction: column;
+  }
+  .oformleniye-title{
+    margin-bottom: 20px;
+  }
+  .sposop-dostavki{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+  }
+  .besopasnost__block{
+    padding: 0px;
+    width: 280px;
+  }
+  .zakaz__block{
+    width: 280px;
+    padding: 0;
+    position: static;
+    margin-left: 20px;
+
+  }
+}
