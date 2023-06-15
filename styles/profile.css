@@ -31,3 +31,13 @@
     cursor: pointer;
     background-color: #e5e5e5;
 }
+
+
+
+@media screen and (max-width: 320px) {
+  .header,.profile__block {
+    display: none;
+  }
+  
+  
+}

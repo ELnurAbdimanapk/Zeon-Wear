@@ -81,57 +81,87 @@ main {
   border: 1px solid #cddaf1;
   border-radius: 16px;
 }
-.birth-month{
+.birth-month {
   width: 164px;
   height: 44px;
   margin-right: 16px;
 }
-.dom, .kvartira{
+.dom,
+.kvartira {
   width: 154px;
-height: 44px;
-background: #FFFFFF;
-border: 1px solid #CDDAF1;
-border-radius: 16px;
+  height: 44px;
+  background: #ffffff;
+  border: 1px solid #cddaf1;
+  border-radius: 16px;
 }
-.about-me-dom{
+.about-me-dom {
   display: flex;
   justify-content: space-between;
 }
-.save-btn{
+.save-btn {
   display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 8px 20px;
-gap: 10px;
-width: 316px;
-height: 44px;
-background: #8B96B1;
-border-radius: 16px;
-color: #ffffff;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 20px;
+  gap: 10px;
+  width: 316px;
+  height: 44px;
+  background: #8b96b1;
+  border-radius: 16px;
+  color: #ffffff;
 }
 
-.profile-password{
+.profile-password {
   width: 316px;
-height: 193px;
-
+  height: 193px;
 }
 
 .change__password {
   display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 8px 20px 8px 16px;
-gap: 10px;
-width: 192px;
-height: 32px;
-background: #054EDB;
-border-radius: 16px;
-color: #FFFFFF;
-margin-top: 12px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 20px 8px 16px;
+  gap: 10px;
+  width: 192px;
+  height: 32px;
+  background: #054edb;
+  border-radius: 16px;
+  color: #ffffff;
+  margin-top: 12px;
 }
-.password__title{
+.password__title {
   text-transform: uppercase;
   margin-bottom: 12px;
+}
+
+@media screen and (max-width: 320px) {
+  .main-profile {
+    width: 320px;
+    margin-left: 0px;
+    height: auto;
+  }
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-me {
+    margin: auto;
+    margin-top: 32px;
+    width: 320px;
+    margin-left: 20px;
+  }
+  .about-me__input,
+  .birth-date,
+  .about-me-dom,
+  .save-btn {
+    width: 90%;
+  }
+  .profile-password {
+    margin-left: 20px;
+    margin-top: 36px;
+    width: 280px;
+  }
 }
