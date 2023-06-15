@@ -2,9 +2,8 @@
 display: flex;
 justify-content: space-around;
 margin-top: 1.6rem;
-
+margin-left: 25px;
 }
-
 .komanda__container img {
     width: 610.67px;
     height: 811px;
@@ -25,7 +24,6 @@ margin-top: 1.6rem;
     mix-blend-mode: color;
     z-index: 1;
 }
-
 .komanda__container p{
     position: absolute;
     width: 343px;
@@ -46,4 +44,7 @@ margin-top: 1.6rem;
      1px -1px 0 #fff,
     -1px 1px 0 #fff,
      1px 1px 0 #fff;
+}
+.komanda__container{
+margin-bottom: 10px;
 }

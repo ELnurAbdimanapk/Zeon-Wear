@@ -1,13 +1,11 @@
 .main-block__container {
   width: 158.4rem;
-  height: 490px;
   margin: auto;
   margin-top: 91px;
   margin: 9.1rem auto 25.5rem;
 }
 .main-block {
   width: 1584px;
-  height: 490px;
   margin: auto;
 }
 .main-block__images {
@@ -100,7 +98,6 @@
   display: flex;
   justify-content: space-between;
   width: 136.1rem;
-  height: 3.9rem;
   margin: 5.6rem auto 0;
 }
 

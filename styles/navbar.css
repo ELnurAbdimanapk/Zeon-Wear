@@ -28,8 +28,7 @@
   .mobile-display-none{
     display: none;
   }
-  .nav__list,
-  .phone {
+  .nav__list{
     display: none;
   }
 }

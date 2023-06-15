@@ -31,12 +31,11 @@ main {
   width: 186px;
   height: 20px;
   background-color: #ffffff;
-
 }
 .support-condts__item {
   margin-top: 16px;
 }
-/* ???????? */
+/* Dropdown */
 .dropdown {
   position: relative;
 }
@@ -55,4 +54,33 @@ main {
 }
 .show {
   display: block;
+}
+.section__container {
+  display: none;
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    display: none;
+  }
+  main {
+    width: 320px;
+  }
+  .profile__block {
+    display: none;
+  }
+  .support-block {
+    padding: 0;
+  }
+  .dropdown-content {
+    gap: 16px;
+
+    width: 280px;
+  }
+  .section__container {
+    display: block;
+  }
+  .burger__menu{
+    display: inline-block;
+  }
 }
