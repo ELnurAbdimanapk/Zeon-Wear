@@ -1,3 +1,17 @@
+.error{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 125%;
+display: flex;
+align-items: flex-end;
+text-align: center;
+color: #DD2C28;
+margin-left: 40px;
+margin-top: 10px;
+
+}
 .container {
   max-width: 192rem;
   position: relative;
@@ -147,6 +161,9 @@ a {
   align-content: space-between;
 }
 
+.registration__btn:hover{
+  background: #000000;
+}
 /* Section */
 
 .section__container {

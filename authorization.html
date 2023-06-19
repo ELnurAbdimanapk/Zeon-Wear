@@ -23,21 +23,21 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
 <body>
-  <!-- header -->
-  <header class="header">
-    <div class="container">
-      <nav class="nav">
-        <a href="#" class="phone text-p-20px-500-montserrat">8 (800) 201-06-19</a>
-        <ul class="nav__list">
-          <li><a href="#"><img class="nav-social_img" src="./images/Instagram.png" alt="Instagram"/></a></li>
-          <li><a href="#"><img class="nav-social_img" src="./images/telegram.png" alt="Telegram"/></a></li>
-          <li><a href="#"><img class="nav-social_img" src="./images/facebook.png" alt="Facebook"/></a></li>
-          <li><a href="#"><img class="nav-social_img" src="./images/vcontakte.png" alt="VKontakte"/></a></li>
-          <li><a href="#"><img class="nav-social_img" src="./images/youtube.png" alt="YouTube"/></a></li>
-        </ul>
-        <a href="/" class="logo text-h1-30px-575-montserrat">Zeon Wear</a>
-      </nav>
-    </div>
+    <!-- Hedaer -->
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <a href="#" class="phone text-p-20px-500-montserrat">8 (800) 201-06-19</a>
+          <ul class="nav__list">
+            <li><a href="https://instagram.com"><img class="nav-social_img" src="./images/Instagram.png" alt="Instagram"/></a></li>
+            <li><a href="https://t.me"><img class="nav-social_img" src="./images/telegram.png" alt="Telegram"/></a></li>
+            <li><a href="https://facebook.com"><img class="nav-social_img" src="./images/facebook.png" alt="Facebook"/></a></li>
+            <li><a href="https://vk.com"><img class="nav-social_img" src="./images/vcontakte.png" alt="VKontakte"/></a></li>
+            <li><a href="https://youtube.com"><img class="nav-social_img" src="./images/youtube.png" alt="YouTube"/></a></li>
+          </ul>
+          <a href="profile.html" class="logo text-h1-30px-575-montserrat">Zeon Wear</a>
+        </nav>
+      </div>
   </header>
   <!-- Main -->
   <main class="main">
@@ -51,13 +51,14 @@
           <h1 class="main__authorization-title text-h1-20px-700-montserrat">Авторизация</h1>
           <p class="main__authorization-text text-p-13px-400-montserrat">
             Нет аккаунта?
-            <a class="main__authorization-text link text-p-13px-400-montserrat-blue">Зарегистрироваться</a>
+            <a class="main__authorization-text link text-p-13px-400-montserrat-blue" href="registration.html">Зарегистрироваться</a>
           </p>
           <input class="main__authorization-input input-email" type="email" placeholder="e-mail*"/>
           <input class="main__authorization-input input-password" type="password" placeholder="Пароль"/>
           <i class="fa-regular fa-eye-slash fa-lg"></i>
-          <button class="main__authorization-button text-p-14px-500-montserrat-white">Войти</button>
-          <p class="main__authorization-text-last text-p-13px-400-montserrat-gray"><a>Забыли пароль?</a></p>
+          <button class="main__authorization-button "><a class="text-p-14px-500-montserrat-white">Войти</a></button>
+          <p class="main__authorization-text-last text-p-13px-400-montserrat-gray"><a href="password-reset.html">Забыли пароль?</a></p>
+          <div class="error"></div>
         </form>
       </div>
     </div>
@@ -70,8 +71,8 @@
         <div class="categories-block__text">
             <div class="categories-block__first-part">
                 <p class="categories-block__text-item text-p-18px-500-montserrat-sesondblack first">Новинки</p>
-                <p class="categories-block__text-item text-p-18px-500-montserrat-sesondblack second">Команды</p>
-                <p class="categories-block__text-item text-p-18px-500-montserrat-sesondblack">Мужчинам</p>
+                <a href="komanda.html"  class="categories-block__text-item text-p-18px-500-montserrat-sesondblack second">Команды</a>
+                <a href="man-category.html" class="categories-block__text-item text-p-18px-500-montserrat-sesondblack">Мужчинам</a>
             </div>
             <div class="burger__menu">
                 <i class="fa-solid fa-bars fa-2xl"></i>
@@ -102,6 +103,7 @@
   </div>
 
   <!-- Scripts -->
+  <script src="./js/authorization.js"></script>
   <script src="https://kit.fontawesome.com/6d7c112d81.js" crossorigin="anonymous"></script>
 </body>
 </html>

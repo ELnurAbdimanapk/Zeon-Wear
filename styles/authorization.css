@@ -1,4 +1,18 @@
 /* Main */
+.error{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 125%;
+display: flex;
+align-items: flex-end;
+text-align: center;
+color: #DD2C28;
+margin-left: 40px;
+margin-top: 10px;
+
+}
 .main__container {
   background-image: url(../images/image\ 2.png);
   width: 185.6rem;

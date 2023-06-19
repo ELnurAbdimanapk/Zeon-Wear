@@ -269,3 +269,20 @@ main {
   left: 0;
   width: 1856px;
 }
+
+
+@media screen and (max-width:320px) {
+  .header,.product__title{
+    display: none;
+  }
+  .product__container{
+    width: 320px;
+    margin: 0px;
+    padding: 0px;
+  }
+  .product__images{
+    width: 320px;
+height: 320px;
+overflow: hidden;
+  }
+}
