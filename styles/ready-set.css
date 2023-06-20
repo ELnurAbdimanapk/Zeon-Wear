@@ -1,0 +1,102 @@
+.main {
+    width: 1856px;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 32px;
+  margin-left: 32px;
+}
+.section__block-left {
+  padding: 36px 24px;
+  width: 336px;
+  height: 280px;
+  background: #ffffff;
+  border-radius: 16px;
+}
+
+.section__header {
+  background-image: url("../images/Group\ 1023.png");
+  width: 1496px;
+  height: 218px;
+  margin-left: 24px;
+}
+
+.dropdown-selection,.option {
+    margin-bottom: 16px;
+    color: #171717;
+    line-height: 16px;
+}
+.option label {
+    margin-left: 10px;
+}
+.section__header-h1{
+
+    position: absolute;
+    width: 236px;
+    height: 60px;
+    left: 1510px;
+    top: 156px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125%;
+    letter-spacing: 0.355em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.ready-set__container{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 32px;
+gap: 24px;
+width: 1496px;
+background: #FFFFFF;
+border-radius: 20px;
+margin: 24px;
+}
+.passive-price{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 150%;
+color: #8B96B1;
+text-decoration-line: line-through;
+}
+h1{
+  color:  #171717;
+}
+.ready-set__item-description{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 16px 16px;
+gap: 12px;
+margin-top: 16px;
+width: 346px;
+height: 72px;
+}
+
+.ready-set__item{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+width: 346px;
+height: 434px;
+background: #FFFFFF;
+border: 1px solid #EAF1FF;
+border-radius: 16px;
+}
+.ready-set__container-row{
+  display: flex;
+  justify-content: space-between;
+  width: 1432px;
+height: 434px;
+margin-bottom: 16px;
+}
+.section__block-right{
+  width: 1496px;
+}
