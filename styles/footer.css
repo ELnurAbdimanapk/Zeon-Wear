@@ -6,7 +6,7 @@
   align-items: flex-start;
   padding: 48px 0px 48px 64px;
   gap: 124px;
-  width: 1856px;
+  max-width: 1856px;
   background: #ffffff;
   border-radius: 24px;
   margin: 32px;

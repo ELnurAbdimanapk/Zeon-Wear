@@ -1,12 +1,12 @@
 .main {
-  width: 1392px;
+  max-width: 1392px;
   background: #ffffff;
   border-radius: 16px;
-  margin: 1.6rem 0 3.2rem 26.4rem;
+  margin: auto;
 }
 
 .section__header {
-  width: 1392px;
+  max-width: 1392px;
   height: 697px;
   position: relative;
   background-image: url("/images/Rectangle\ 796.png");
@@ -17,7 +17,7 @@
   padding: 32px;
   gap: 10px;
   position: absolute;
-  width: 898px;
+  max-width: 898px;
   height: 184px;
   left: 247px;
   top: 236px;
@@ -38,7 +38,7 @@
 .contractor-inf__first {
   padding: 0px;
   gap: 24px;
-  width: 1082px;
+  max-width: 1082px;
   height: 216px;
   margin: 9.1rem 0 6rem 15.5rem;
 }
@@ -58,7 +58,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
-  width: 1238px;
+  max-width: 1238px;
   height: 425px;
   margin-left: 77px;
 }
@@ -85,7 +85,7 @@
 /* Predlojeniye */
 
 .predlojeniye {
-  width: 1392px;
+  max-width: 1392px;
   height: 624px;
   background: url("/images/Rectangle\ 797.png");
   padding: 248px 134px;

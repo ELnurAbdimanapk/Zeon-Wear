@@ -1,11 +1,17 @@
+.main{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1392px;
+  margin: auto;
+  gap: 32px;
+}
 .cart__container {
-  padding: 32px;
-  gap: 36px;
-  width: 1002px;
-  height: auto;
+  max-width: 1002px;
   background: #ffffff;
   border-radius: 16px;
-  margin: 1.6rem 3.2rem 3.2rem 26.4rem;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
 }
 .title {
   margin-bottom: 1.6rem;
@@ -13,8 +19,10 @@
 
 .cart-item__block {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   margin-top: 3.6rem;
+  gap: 50px;
+  margin: 32px 0 0 32px ;
 }
 .cart-item__image {
   border-radius: 16px 0px 0px 16px;
@@ -25,7 +33,7 @@
   display: flex;
   justify-content: space-between;
   padding: 1.6rem 1.6rem;
-  width: 774px;
+  max-width: 774px;
   height: 148px;
 }
 .cart-item__description {
@@ -122,11 +130,8 @@
 /* Zakaz */
 
 .zakaz__block {
-  position: absolute;
-  width: 358px;
+  max-width: 358px;
   height: 504px;
-  left: 1298px;
-  top: 77px;
   background: #ffffff;
   border-radius: 16px;
 }
@@ -134,7 +139,7 @@
 /* Oformleniye */
 
 .oformleniye__block {
-  width: 612px;
+  max-width: 612px;
   height: 790px;
   border-radius: 16px;
   padding: 32px 32px;
@@ -143,9 +148,8 @@
 .oformleniye {
   display: flex;
   justify-content: space-between;
-  width: 1002px;
+  max-width: 1002px;
   gap: 36px;
-  margin-left: 264px;
   margin-bottom: 3.2rem;
 }
 .besopasnost__block {

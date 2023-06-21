@@ -1,15 +1,15 @@
 .trash-container {
   padding: 32px 32px;
   gap: 36px;
-  width: 1392px;
+  max-width: 1392px;
   height: 892px;
   background: #ffffff;
   border-radius: 16px;
-  margin: 1.6rem 0 3.2rem 26.4rem;
+  margin: auto;
 }
 .net-tovara {
   position: absolute;
-  width: 320px;
+  max-width: 320px;
   height: 33px;
   left: 804px;
   top: 466px;

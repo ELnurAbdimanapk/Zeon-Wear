@@ -98,5 +98,5 @@ height: 434px;
 margin-bottom: 16px;
 }
 .section__block-right{
-  width: 1496px;
+  max-width: 1496px;
 }

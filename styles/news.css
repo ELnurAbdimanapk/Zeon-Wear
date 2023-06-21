@@ -5,10 +5,12 @@ main {
 }
 .news__block {
   padding: 3.4rem 3.2rem;
-  width: 1496px;
+  max-width: 1496px;
   background: #ffffff;
   border-radius: 1.6rem;
   margin-left: 2.4rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 .news-profile-p {
   margin: 1.2rem 0 3.2rem 0;
@@ -22,17 +24,17 @@ main {
   flex-direction: column;
   align-items: flex-start;
   gap: 24px;
-  width: 804px;
+  max-width: 804px;
 }
 .main-news__item {
   padding: 1.6rem 0 0 1.6rem;
   display: flex;
   justify-content: space-between;
-  width: 804px;
+  max-width: 804px;
   min-height: 100px;
 }
 .main-news__item img {
-  width: 380px;
+  max-width: 380px;
   height: 260px;
   border-radius: 10px;
   margin-right: 1.6rem;
@@ -44,12 +46,12 @@ main {
 /* Secon news */
 .secondary-news,
 .third-news {
-  width: 286px;
+  max-width: 286px;
   height: 319px;
   margin-left: 3.2rem;
 }
 .secondary-img {
-  width: 286px;
+  max-width: 286px;
   height: 196px;
   border-radius: 12px;
   margin-bottom: 8px;
@@ -79,7 +81,7 @@ main {
     margin: 0;
   }
   .main-news{
-    width: 280px;
+    max-width: 280px;
   }
  
   

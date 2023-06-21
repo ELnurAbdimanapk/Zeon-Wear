@@ -15,10 +15,11 @@ margin-top: 10px;
 }
 .main__container {
   background-image: url(../images/image\ 2.png);
-  width: 185.6rem;
+  max-width: 185.6rem;
   height: 87.3rem;
   border-radius: 2.4rem;
   margin: 1.6rem 0 0 3.2rem;
+  position: relative;
 }
 
 .main__authorization {
@@ -27,8 +28,8 @@ margin-top: 10px;
   background: #ffffff;
   border-radius: 16px;
   position: absolute;
-  left: 129.3rem;
-  top: 34.7rem;
+  left: 69%;
+  top: 18%;
 }
 .main__authorization-block {
   margin: 2.4rem 0 0 2.4rem;
@@ -36,7 +37,7 @@ margin-top: 10px;
 .main__authorization-text {
   margin-top: 1rem;
 }
-input {
+.main__authorization-input {
   width: 31.6rem;
   height: 4.4rem;
   background: #ffffff;
@@ -113,7 +114,7 @@ input {
   }
   input,
   .main__authorization-button {
-    width: 27.2rem;
+    max-width: 27.2rem;
   }
 
   .main {

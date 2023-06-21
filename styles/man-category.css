@@ -1,13 +1,10 @@
-
-
 /* Man Category */
 .man__main {
   margin-top: 1.8rem;
   margin-bottom: 3.2rem;
 }
 .man__category {
-  width: 1496px;
-  height: 1631px;
+  max-width:  1496px;
   margin-left: 39.2rem;
   padding: 32px;
   gap: 24px;
@@ -29,11 +26,16 @@
   font-size: 13px;
   line-height: 175%;
 }
+.main-block__categories{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
 /* Product */
 #products__row {
   margin-top: 2.2rem;
-  width: 1496px;
+  max-width: 1496px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -86,7 +88,6 @@
   margin-top: 1.2rem;
 }
 .line {
-  width: 0;
   height: 18px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   margin-left: 2.6rem;

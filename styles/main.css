@@ -1,5 +1,5 @@
 .main-block__container {
-  width: 158.4rem;
+  max-width: 158.4rem;
   margin: auto;
   margin-top: 91px;
   margin: 9.1rem auto 25.5rem;
@@ -97,7 +97,7 @@
 .main-block__categories {
   display: flex;
   justify-content: space-between;
-  width: 136.1rem;
+  max-width: 136.1rem;
   margin: 5.6rem auto 0;
 }
 

@@ -1,6 +1,7 @@
 /* Section */
 .section__container{
   margin-left: 32px;
+  text-overflow:c ;
 }
 input {
   display: flex;
@@ -8,7 +9,7 @@ input {
   align-items: center;
   padding: 10px 16px;
   gap: 12px;
-  width: 320px;
+  max-width: 320px;
   height: 44px;
   border: 1px solid #d4e3ff;
   border-radius: 16px;
@@ -18,28 +19,30 @@ input {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  width: 32rem;
+  gap: 8px;
+ width: 32rem;
+  margin-left: 95px;
 }
-
-.categories-block__first-part,
-.categories-block__second-part {
-  display: flex;
-  justify-content: space-between;
-}
-
 .categories-block__text-item {
-  margin-left: 2.4rem;
+  margin-left: 2.4vw;
 }
 
 .burger__menu {
   display: none;
 }
-
+.categories-block__first-part{
+  align-items: center;
+  display: flex;
+  gap: 64px;
+  justify-content: center;
+  position: relative;
+  width: fit-content;
+}
 .categories-block__text {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 99.4rem;
+  max-width: 99.4rem;
 }
 .categories-block {
   display: flex;
@@ -48,7 +51,7 @@ justify-content: space-between;
 align-items: center;
 padding: 12px 16px;
 gap: 94px;
-width: 1856px;
+max-width: 1856px;
 height: 74px;
 background: #FFFFFF;
 box-shadow: 0px -10px 38px -4px rgba(0, 0, 0, 0.06);
@@ -63,14 +66,8 @@ border-radius: 24px;
 .categories-block__icons img {
   margin-right: 4rem;
 }
-
-.categories-block__first-part,
-.categories-block__second-part {
-  display: flex;
-  justify-content: space-between;
-}
 .main__reset-text {
-  width: 31.5rem;
+  max-width: 31.5rem;
   margin-top: 0.8rem;
 }
 @media screen and (max-width: 320px){

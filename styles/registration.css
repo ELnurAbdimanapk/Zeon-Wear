@@ -12,33 +12,10 @@ margin-left: 40px;
 margin-top: 10px;
 
 }
-.container {
-  max-width: 192rem;
-  position: relative;
-}
-.nav {
-  display: flex;
-  width: 660px;
-  justify-content: space-between;
-  align-items: center;
-  margin-left: 122.8rem;
-  margin-top: 2.4rem;
-}
-
-.nav__list {
-  display: flex;
-  justify-content: space-between;
-  width: 20.4rem;
-}
-a {
-  text-decoration: none;
-}
-
 /* Main */
-
 .main__container {
   background-image: url(../images/registration.png);
-  width: 185.6rem;
+  max-width: 185.6rem;
   height: 87.3rem;
   border-radius: 2.4rem;
   margin: 1.6rem 0 0 3.2rem;
@@ -49,11 +26,11 @@ a {
   margin: 6.4rem 0 0 6.4rem;
 }
 .main__registration {
-  width: 69.6rem;
+  max-width: 69.6rem;
   height: 60.6rem;
   position: absolute;
-  left: 92.8rem;
-  top: 13.4rem;
+  left:51%;
+  top: 13%;
   background: #ffffff;
   border-radius: 16px;
   padding-left: 2.4rem;
@@ -151,7 +128,7 @@ a {
 }
 
 .registration__button {
-  width: 315px;
+  max-width: 315px;
   height: 116px;
   margin: auto;
   text-align: center;
@@ -191,7 +168,7 @@ a {
 .categories-block__input {
   border: 1px solid #d4e3ff;
   margin: 1.5rem 0 0 1.6rem;
-  width: 31.6rem;
+  max-width: 31.6rem;
   height: 4.4rem;
   background: #ffffff;
   border: 1px solid #cddaf1;
