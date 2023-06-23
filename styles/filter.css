@@ -3,14 +3,15 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 36px 0px;
-    position: absolute;
     width: 336px;
     height: 1440px;
     background: #ffffff;
     border-radius: 16px;
-    margin-left: 3.2rem;
   }
-  
+  .man__main{
+    display: flex;
+    justify-content: space-evenly;
+  }
   .dropdown,
   .search__brand {
     position: relative;
@@ -18,7 +19,6 @@
     width: 20rem;
     margin-left: 2.4rem;
   }
-  
   .dropdown-selection {
     cursor: pointer;
     align-items: center;
@@ -26,7 +26,6 @@
     flex-direction: row;
     align-items: center;
   }
-  
   .dropdown-options .option {
     display: flex;
     flex-direction: row;
@@ -34,11 +33,9 @@
     margin-top: 1.6rem;
     gap: 10px;
   }
-  
   .dropdown-options .option:hover {
     background-color: #f1f1f1;
   }
-  
   .option input {
     width: 2rem;
     height: 2rem;
@@ -46,7 +43,6 @@
   .arrow-down {
     margin-left: 4px;
   }
-  
   /* .Game */
   .game__category,
   .search__brand,

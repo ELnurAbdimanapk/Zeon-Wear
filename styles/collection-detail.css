@@ -1,5 +1,5 @@
 .academy__container {
-  width: 1461px;
+  max-width: 1461px;
   height: 856px;
   background: #ffffff;
   border-radius: 16px;
@@ -8,10 +8,10 @@
 
 .main {
   display: flex;
-  justify-content: space-between;
-  width: 1856px;
-  height: auto;
-  padding: 16px 32px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1856px;
+  margin: auto;
 }
 .title {
   margin-bottom: 16px;
@@ -26,84 +26,85 @@
   flex-direction: row;
   align-items: center;
   gap: 10px;
-  width: 518px;
+  max-width: 518px;
   height: 64px;
   margin-top: 22px;
   margin-left: 69px;
 }
-.description__left ,.description__right{
+.description__left,
+.description__right {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;
-  width: 366.5px;
+  max-width: 366.5px;
   height: 494px;
-}
-.description{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 24px;
-}
-.product__description{
-    display: flex;
-    flex-direction: column;
+margin-left: 20px;
 
 }
-
-.color-box{
-    width: 376px;
-
+.description {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.product__description {
+  display: flex;
+  flex-direction: column;
 }
 
-.main{
-    display: flex;
-    justify-content: space-between;
+.color-box {
+  width: 376px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Application */
-.application{
-    display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 24px;
-gap: 16px;
-width: 363px;
-height: 550px;
-background: #FFFFFF;
-border-radius: 16px;
-margin-left: 32px;
-text-align: center;
+.application {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  width: 363px;
+  height: 550px;
+  background: #ffffff;
+  border-radius: 16px;
+  text-align: center;
+  padding: 24px;
 }
-input,textarea{
-    display: flex;
-flex-direction: row;
-align-items: center;
-padding: 12px 16px;
-gap: 12px;
-width: 315px;
-height: 44px;
-background: #FFFFFF;
-border: 1px solid #CDDAF1;
-border-radius: 16px;
+input,
+textarea {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 12px;
+  width: 315px;
+  height: 44px;
+  background: #ffffff;
+  border: 1px solid #cddaf1;
+  border-radius: 16px;
 }
 
-.comment{
-height: 213px;
-padding: 10px;
+.comment {
+  height: 213px;
+  padding: 10px;
 }
-button{
-    display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 8px 20px;
-gap: 10px;
-width: 315px;
-height: 44px;
-background: #171717;
-border-radius: 16px;
-color: #FFFFFF;
+button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 20px;
+  gap: 10px;
+  width: 315px;
+  height: 44px;
+  background: #171717;
+  border-radius: 16px;
+  color: #ffffff;
 }
-.otmena{
-    margin: auto;
+.otmena {
+  margin: auto;
 }

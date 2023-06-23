@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Линкс -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+    <!-- Styles -->
+  <link rel="stylesheet" href="./styles/styles.css" />
+  <link rel="stylesheet" href="./styles/base.css" />
+  <link rel="stylesheet" href="./styles/navbar.css" />
+  <link rel="stylesheet" href="./styles/footer.css" />
+  <link rel="stylesheet" href="./styles/constructor-form.css" />
+  <link rel="stylesheet" href="./styles/filter.css" />
+  <link rel="stylesheet" href="./styles/man-category.css" />
+</head>
+<!-- Ищвн -->
+<body>
+   <!-- Hedaer -->
+   <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <a href="#" class="phone text-p-20px-500-montserrat">8 (800) 201-06-19</a>
+        <ul class="nav__list">
+          <li><a href="https://instagram.com"><img class="nav-social_img" src="./images/instagram.png" alt="Instagram"/></a></li>
+          <li><a href="https://t.me"><img class="nav-social_img" src="./images/telegram.png" alt="Telegram"/></a></li>
+          <li><a href="https://facebook.com"><img class="nav-social_img" src="./images/facebook.png" alt="Facebook"/></a></li>
+          <li><a href="https://vk.com"><img class="nav-social_img" src="./images/vcontakte.png" alt="VKontakte"/></a></li>
+          <li><a href="https://youtube.com"><img class="nav-social_img" src="./images/youtube.png" alt="YouTube"/></a></li>
+        </ul>
+        <a href="profile.html" class="logo text-h1-30px-575-montserrat">Zeon Wear</a>
+      </nav>
+    </div>
+</header>
+<!-- Main -->
+  <main class="main">
+    <div class="category__block-category">
+      <!-- Bashy Filter -->
+      <!-- Категория -->
+      <div class="dropdown">
+        <div class="dropdown-selection text-p-15px-600-montserrat-white ">Категория<img class="arrow-down" src="./images/Down.png"></div>
+        <div class="dropdown-options">
+            <div class="option">
+              <input type="checkbox" id="tshirts">
+                <label for="option1" class="text-p-13px-400-montserrat-120">Футболка</label>
+            </div>
+            <div class="option">
+                <input type="checkbox" id="shorts">
+                <label for="option2" class="text-p-13px-400-montserrat-120">Шорты</label>
+            </div>
+            <div class="option">
+              <input type="checkbox" id="tights">
+              <label for="option2" class="text-p-13px-400-montserrat-120">Трико</label>
+          </div>
+          <div class="option">
+            <input type="checkbox" id="shoes">
+            <label for="option2" class="text-p-13px-400-montserrat-120">Обувь</label>
+        </div>
+        <div class="option">
+          <input type="checkbox" id="sports">
+          <label for="option2" class="text-p-13px-400-montserrat-120">Спортивка</label>
+      </div>
+      <div class="option">
+        <input type="checkbox" id="headdress">
+        <label for="option2" class="text-p-13px-400-montserrat-120">Головной убор</label>
+    </div>
+        </div>
+    </div>
+<!-- Виды спорта -->
+<div class="dropdown game__category">
+  <div class="dropdown-selection text-p-15px-600-montserrat-white ">Виды спорта <img class="arrow-down" src="./images/Down.png"></div>
+  <div class="dropdown-options">
+  <div class="option">
+        <input type="checkbox" id="football">
+          <label for="option1" class="text-p-13px-400-montserrat-120">Футбол</label>
+  </div>
+  <div class="option">
+          <input type="checkbox" id="mini-football">
+          <label for="option2" class="text-p-13px-400-montserrat-120">Мини-футбол</label>
+  </div>
+  <div class="option">
+        <input type="checkbox" id="voleyball">
+        <label for="option2" class="text-p-13px-400-montserrat-120">Волейбол</label>
+  </div>
+  <div class="option">
+      <input type="checkbox" id="athletics">
+      <label for="option2" class="text-p-13px-400-montserrat-120">Легкая атлетика</label>
+  </div>
+  <div class="option">
+    <input type="checkbox" id="gandball">
+    <label for="option2" class="text-p-13px-400-montserrat-120">Гандбол</label>
+  </div>
+  <div class="option">
+  <input type="checkbox" id="fitness">
+  <label for="option2" class="text-p-13px-400-montserrat-120">Фитнес</label>
+  </div>
+  <div class="option">
+  <input type="checkbox" id="regby">
+  <label for="option2" class="text-p-13px-400-montserrat-120">Регби</label>
+  </div>
+  <div class="option">
+  <input type="checkbox" id="yoga">
+  <label for="option2" class="text-p-13px-400-montserrat-120">Йога</label>
+</div>
+  </div>
+</div>
+<!-- Brand  -->
+<div class="search__brand">
+  <div class="dropdown-selection text-p-15px-600-montserrat-white ">Бренд<img class="arrow-down" src="./images/Down.png"></div>
+  <input class="brand-search" type="text" id="brandSearch" placeholder="Я ищу"/>
+</div>
+<!-- Price -->
+<div class="search__brand">
+  <div class="dropdown-selection text-p-15px-600-montserrat-white ">Цена<img class="arrow-down" src="./images/Down.png"></div>
+  <div class="price__filter">
+    <div class="price__ot">
+      <p class="text-p-13px-400-montserrat-gray ">От</p>
+      <input class="price__input" placeholder="100 ₽" type="number">
+    </div>
+    <div class="price__ot">
+      <p class="text-p-13px-400-montserrat-gray ">До</p>
+      <input class="price__input" placeholder="10500 ₽" type="number">
+    </div>
+  </div>
+</div>
+<!-- Size -->
+<div class="search__brand">
+  <div class="dropdown-selection text-p-15px-600-montserrat-white ">Размер<img class="arrow-down" src="./images/Down.png"></div>
+  <div class="size-block">
+    <div class="size-country">
+      <p class="text-p-13px-600-montserrat-gray">EU</p>
+      <div class="sise-line"></div>
+      <p class="text-p-13px-600-montserrat-gray">US</p>
+      <div class="sise-line"></div>
+      <p class="text-p-13px-600-montserrat-gray">JP</p>
+      <div class="sise-line"></div>
+      <p class="text-p-13px-600-montserrat-gray">RU</p>
+    </div>
+    <div class="sizes">
+      <button class="size-btn text-p-13px-500-montserrat">XXL</button>
+      <button class="size-btn text-p-13px-500-montserrat">XL</button>
+      <button class="size-btn text-p-13px-500-montserrat">L</button>
+      <button class="size-btn text-p-13px-500-montserrat">M</button>
+      <button class="size-btn text-p-13px-500-montserrat">S</button>
+    </div>
+  </div>
+  <p class="tablitsa ">Таблица размеров</p>
+</div>
+<!-- Material -->
+<div class="dropdown imitation-leather ">
+  <div class="dropdown-selection text-p-15px-600-montserrat-white ">Материал<img class="arrow-down" src="./images/Down.png"></div>
+  <div class="dropdown-options">
+    <div class="option">
+      <input type="checkbox" id="tshirts">
+        <label for="option1" class="text-p-13px-400-montserrat-120">Искусственная кожа</label>
+    </div>
+      <div class="option">
+        <input type="checkbox" id="tshirts">
+          <label for="option1" class="text-p-13px-400-montserrat-120">Натуральная замша</label>
+      </div>
+      <div class="option">
+          <input type="checkbox" id="shorts">
+          <label for="option2" class="text-p-13px-400-montserrat-120">Натуральная кожа</label>
+      </div>
+      <div class="option">
+        <input type="checkbox" id="tights">
+        <label for="option2" class="text-p-13px-400-montserrat-120">Натуральный нубук</label>
+    </div>
+    <div class="option">
+      <input type="checkbox" id="shoes">
+      <label for="option2" class="text-p-13px-400-montserrat-120">Нубук</label>
+  </div>
+  <div class="option">
+    <input type="checkbox" id="sports">
+    <label for="option2" class="text-p-13px-400-montserrat-120">Полиуретан</label>
+</div>
+<div class="option">
+  <input type="checkbox" id="headdress">
+  <label for="option2" class="text-p-13px-400-montserrat-120">Головной убор</label>
+</div>
+  </div>
+</div>
+<!-- Color -->
+<div class="search__brand">
+  <div class="dropdown-selection  text-p-15px-600-montserrat-white ">Цвет<img class="arrow-down" src="./images/Down.png"></div>
+  <div class="color-box">
+    <button class="button__color black"></button>
+    <button class="button__color green"></button>
+    <button class="button__color yellow"></button>
+    <button class="button__color white"></button>
+    <button class="button__color purple"></button>
+    <button class="button__color gray"></button>
+    <button class="button__color orange"></button>
+  </div>
+  <div class="color-box second">
+    <div class="button__color blue"></div>
+    <div class="button__color dark-gray"></div>
+  </div>
+</div>
+</div>
+<!-- End Filter PArt -->
+
+  </main>
+      <!-- Footer -->
+      <footer>
+        <div class="footer__container">
+            <div class="footer-block-first">
+                <a href="/" class="footer__phone text-p-20px-500-montserrat">8 (800) 201-06-19</a>
+                <p class="footer__email text-p-20px-500-montserrat">mail@example.com</p>
+                <ul class="footer__nav__list">
+                    <li class="nav__list-item">
+                        <a href="" class="footer__nav-social_link"><img class="nav-social_img" src="./images/instagram.png" /></a>
+                    </li>
+                    <li class="nav__list-item">
+                        <a href="" class="footer__nav-social_link"><img class="nav-social_img" src="../images/telegram.png" /></a>
+                    </li>
+                    <li class="nav__list-item">
+                        <a href="" class="footer__nav-social_link"><img class="nav-social_img" src="../images/facebook.png" /></a>
+                    </li>
+                    <li class="nav__list-item">
+                        <a href="" class="footer__nav-social_link"><img class="nav-social_img" src="../images/vcontakte.png" /></a>
+                    </li>
+                    <li class="nav__list-item">
+                        <a href="" class="footer__nav-social_link"><img class="nav-social_img" src="../images/youtube.png" /></a>
+                    </li>
+                </ul>
+                <div class="footer__logo">
+                    <a href="/" class="footer-logo text-h1-22px-575-montserrat">Zeon Wear</a>
+                    <p class="footer__logo text-p-13px-400-montserrat-120">by zeon</p>
+                </div>
+            </div>
+            <div class="footer-block-second">
+                <a href="contractor.html" class="text-p-14px-400-montserrat">Стать партнером</a>
+                <p class="text-p-14px-400-montserrat">Арендодателям</p>
+                <p class="text-p-14px-400-montserrat">Подключиться к партнерской программе “Маркетплейс”</p>
+            </div>
+            <div class="footer-block-third">
+                <p class="text-p-14px-400-montserrat">О нас</p>
+                <a href="support.html" class="text-p-14px-400-montserrat">Помощь</a>
+                <p class="text-p-14px-400-montserrat">Способ оплаты</p>
+                <p class="text-p-14px-400-montserrat">Доставка</p>
+            </div>
+            <div class="footer-block-fourth">
+                <p class="text-p-14px-500-montserrat-gray">Разработка сайтов и мобильных приложений</p>
+                <a class="text-p-14px-400-montserrat-blue">www.zeon.Itd 2022</a>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/dropdown.js"></script>
+    <script
+      src="https://kit.fontawesome.com/6d7c112d81.js"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>
