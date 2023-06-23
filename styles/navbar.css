@@ -1,38 +1,40 @@
-.container{
+.header {
+  width: 100%;
+  padding: 24px 32px;
   display: flex;
   justify-content: flex-end;
 }
-.nav {
-  display: flex;
+.container {
+  width: 100%;
   max-width: 660px;
-  align-items: center;
-  margin-top: 24px;
-  gap: 32px;
-  margin-right: 32px;
-}
-
-.nav__list {
   display: flex;
   justify-content: space-between;
-  width: 20.4rem;
+  align-items: center;
 }
-
+.nav__list {
+  display: flex;
+  gap: 16px;
+}
+.header__line {
+  width: 1px;
+  height: 100%;
+  background-color: #CDDAF1;
+}
 @media screen and (max-width: 320px) {
-  
-  .logo {
-    position: absolute;
-    top: 1rem;
-    left: 2rem;
-  }
-  .nav__list-item,
-  .phone,
-  .log-in__icon {
+  .header {
+    padding: 16px 20px;
+}
+.nav__list {
+    gap: 8px;
+}
+.nav__list li:nth-child(1) {
     display: none;
-  }
-  .mobile-display-none{
+}
+.nav__list li:nth-child(2) {
     display: none;
-  }
-  .nav__list{
-    display: none;
-  }
+}
+.nav__list li svg {
+    width: 20px;
+    height: 20px
+}
 }

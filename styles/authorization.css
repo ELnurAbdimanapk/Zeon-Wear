@@ -15,10 +15,10 @@ margin-top: 10px;
 }
 .main__container {
   background-image: url(../images/image\ 2.png);
-  max-width: 185.6rem;
+  max-width: 1800px;
   height: 87.3rem;
   border-radius: 2.4rem;
-  margin: 1.6rem 0 0 3.2rem;
+  margin: 10px auto 12px;
   position: relative;
 }
 
