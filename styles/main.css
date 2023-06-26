@@ -1,19 +1,23 @@
-.main-block__container {
-  max-width: 158.4rem;
-  margin: auto;
-  margin-top: 91px;
-  margin: 9.1rem auto 25.5rem;
+.swiper {
+  width: 100%;
+  max-width: 1584px;
+  height: 100%;
+  margin: 91px auto 56px;
 }
-.main-block {
-  width: 1584px;
-  margin: auto;
-}
-.main-block__images {
+
+.swiper-wrapper {
+  width: 1808px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* Images Mix Blend Mode */
 .images-block-first,
 .images-block-fifth {
@@ -26,72 +30,6 @@
   width: 292px;
   height: 466px;
 }
-.images-block-first {
-  position: relative;
-}
-.image-overlay-first {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(255, 255, 255, 0.64);
-  mix-blend-mode: normal;
-  border-radius: 16px;
-}
-.images-block-second {
-  position: relative;
-}
-.image-overlay-second {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  background: #242424;
-  mix-blend-mode: color;
-  border-radius: 16px;
-}
-.images-block-third {
-  position: relative;
-}
-.image-overlay-third {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(255, 24, 24, 0.99);
-  mix-blend-mode: color-burn;
-  border-radius: 16px;
-}
-.images-block-fourth {
-  position: relative;
-}
-.image-overlay-fourth {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  background: #242424;
-  mix-blend-mode: color;
-  border-radius: 16px;
-}
-.images-block-fifth {
-  position: relative;
-}
-.image-overlay-fifth {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(255, 255, 255, 0.64);
-  mix-blend-mode: normal;
-  border-radius: 16px;
-}
-
 /* main-block__categoriea */
 
 .main-block__categories {
@@ -122,8 +60,27 @@
   margin-top: 3rem;
   text-align: center;
 }
-
+.blur {
+  filter: blur(5px);
+}
+.active-slide {
+  width: 120%;
+  height: 120%;
+}
+.neighbor-slide {
+  width: 110%;
+  height: 110%;
+}
 @media screen and (max-width: 320px) {
+  .swiper-button-next {
+    right: 20px;
+    transform: rotate(90deg);
+}
+
+.swiper-button-prev {
+    left: 20px;
+    transform: rotate(90deg);
+}
   body {
     background-color: #e5e5e5;
 

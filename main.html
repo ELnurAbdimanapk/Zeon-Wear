@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./styles/navbar.css" />
     <link rel="stylesheet" href="./styles/footer.css" />
     <link rel="stylesheet" href="./styles/main.css" />
-
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
@@ -21,34 +21,51 @@
     />
   </head>
   <body>
-    <!-- Hedaer -->
-    <header class="header">
+     <!-- Hedaer -->
+     <header class="header">
       <div class="container">
-        <nav class="nav">
           <a href="#" class="phone text-p-20px-500-montserrat">8 (800) 201-06-19</a>
+          <div class="header__line"></div>
           <ul class="nav__list">
-            <li><a href="https://instagram.com"><img class="nav-social_img" src="./images/instagram.png" alt="Instagram"/></a></li>
-            <li><a href="https://t.me"><img class="nav-social_img" src="./images/telegram.png" alt="Telegram"/></a></li>
+            <li><a href="https://instagram.com"><img class="nav-social_img instagram" src="./images/instagram.png" alt="Instagram"/></a></li>
+            <li><a href="https://t.me"><img class="nav-social_img telegram" src="./images/telegram.png" alt="Telegram"/></a></li>
             <li><a href="https://facebook.com"><img class="nav-social_img" src="./images/facebook.png" alt="Facebook"/></a></li>
             <li><a href="https://vk.com"><img class="nav-social_img" src="./images/vcontakte.png" alt="VKontakte"/></a></li>
             <li><a href="https://youtube.com"><img class="nav-social_img" src="./images/youtube.png" alt="YouTube"/></a></li>
           </ul>
+          <div class="header__line"></div>
           <a href="profile.html" class="logo text-h1-30px-575-montserrat">Zeon Wear</a>
-        </nav>
       </div>
   </header>
-
   <!-- Мейн Блок  -->
 
       <div class="main-block__container">
-        <div class="main-block__images">
-          <div class="main-block__image-item images-block-first"><div class="image-overlay image-overlay-first"></div><img class="main-block__img-item" src="./images/images-block1.png"></div>
-          <div class="main-block__image-item images-block-second"><div class=" image-overlay image-overlay-second"></div><img class="main-block__img-item" src="./images/images-block2.png"></div>
-          <div class="main-block__image-item images-block-third" ><div class=" image-overlay image-overlay-third"></div><img class="main-block__img-item" src="./images/images-block3.png"></div>
-          <div class="main-block__image-item images-block-fourth"><div class=" image-overlay image-overlay-fourth"></div><img class="main-block__img-item" src="./images/images-block4.png"></div>
-          <div class="main-block__image-item images-block-fifth"><div class="image-overlay image-overlay-fifth"></div><img class="main-block__img-item" src="./images/images-block5.png"></div>
-        </div>
-
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+              <!-- Ваши слайды -->
+              <div class="swiper-slide ">
+                  <img class="main-block__img-item" src="./images/images-block1.png">
+              </div>
+              <div class="swiper-slide ">
+                  <img class="main-block__img-item" src="./images/images-block2.png">
+              </div>
+              <div class="swiper-slide ">
+                  <img class="main-block__img-item" src="./images/images-block3.png">
+              </div>
+              <div class="swiper-slide ">
+                  <img class="main-block__img-item" src="./images/images-block4.png">
+              </div>
+              <div class="swiper-slide ">
+                  <img class="main-block__img-item" src="./images/images-block5.png">
+              </div>
+              <div class="swiper-slide ">
+                <img class="main-block__img-item" src="./images/images-block5.png">
+            </div>
+          </div>
+          <!-- Button -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+      </div>
         <div class="main-block__categories">
           <button class="main-block__button">Бутсы</button>
           <button class="main-block__button">Мини-футбол</button>
@@ -64,49 +81,70 @@
           <i class="fa-sharp fa-solid fa-arrow-left"></i>
         </div>
         <div class="main-block__brands">
-          <div class="main-block__brands-block">
-            <img src="./images/bi_arrow-left.png">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./images/Joma_Sport.png">
+              </div>
+              <div class="swiper-slide blur">
+                <img src="./images/Joma_Sport.png">
+              </div>
+              <div class="swiper-slide blur">
+                <img src="./images/Joma_Sport.png">
+              </div>
+              <div class="swiper-slide blur">
+                <img src="./images/Joma_Sport.png">
+              </div>
+              <div class="swiper-slide blur">
+                <img src="./images/Joma_Sport.png">
+              </div>
+              <div class="swiper-slide blur">
+                <img src="./images/Joma_Sport.png">
+              </div>
 
-          <div class="main-block__brand-item"><img class="Joma" src="./images/Joma_Sport.png"></div>
-          <div class="main-block__brand-item blur"><img class="Joma" src="./images/Joma_Sport.png"></div>
-          <div class="main-block__brand-item blur"><img class="Joma" src="./images/Joma_Sport.png"></div>
-          <div class="main-block__brand-item blur"><img class="Joma" src="./images/Joma_Sport.png"></div>
-          <div class="main-block__brand-item blur"><img class="Joma" src="./images/Joma_Sport.png"></div>
-          <img src="./images/bi_arrow-right.png">
+              <div class="swiper-slide blur">
+                <img src="./images/Joma_Sport.png">
+              </div>
 
+            </div>
+             <!-- Button -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
           </div>
           <div class="frame"><img class="frame__img" src="./images/Frame 1696.png"></div>
         </div>
-        </div>
-        
-  <!-- Section -->
-  <div class="section__container">
-    <section class="categories-block">
-        <input class="categories-block__input" placeholder="Поиск" />
-        <i class="fa-solid fa-magnifying-glass fa-2xl"></i>
-        <div class="categories-block__text">
-            <div class="categories-block__first-part">
-                <div class="categories-block__text-item text-p-18px-500-montserrat-sesondblack first">Новинки</div>
-                <a href="komanda.html"  class="categories-block__text-item text-p-18px-500-montserrat-sesondblack second">Команды</a>
-                <a href="man-category.html" class="categories-block__text-item text-p-18px-500-montserrat-sesondblack">Мужчинам</a>
-                <div class="search__img"><img src="./images/picon.png" alt="Search Icon"/></div>
-                <div class="categories-block__text-item text-p-18px-500-montserrat-sesondblack third">Женщинам</div>
-                <div class="categories-block__text-item text-p-18px-500-montserrat-sesondblack fourth">Дети</div>
-                <div class="categories-block__text-item text-p-18px-500-montserrat-sesondblack fifth">Распродажа</div>
-            </div>
-        </div>
-        <div class="burger__menu">
-          <i class="fa-solid fa-bars fa-2xl"></i>
       </div>
-        <div class="categories-block__icons">
-               <div> <img class="categories-block__icons-item heart__icon" src="./images/heart.png" alt="Heart Icon"/></div>
-                <div><img class="categories-block__icons-item shopping-cart__icon" src="./images/shopping-cart.png" alt="Shopping Cart Icon"/></div>
-                <div><img class="categories-block__icons-item log-in__icon" src="./images/log-in.png" alt="Log-in Icon"/></div>
-        </div>
-    </section>
-  </div>
+ <!-- Section -->
+ <div class="section__container">
+  <section class="categories-block">
+    <div class="input__search">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M10.4991 2.95992C8.49933 2.95992 6.5815 3.75431 5.16748 5.16833C3.75345 6.58236 2.95906 8.50019 2.95906 10.4999C2.95906 12.4997 3.75345 14.4175 5.16748 15.8315C6.5815 17.2455 8.49933 18.0399 10.4991 18.0399C12.4899 18.0399 14.3996 17.2526 15.8118 15.8503C15.8193 15.8423 15.827 15.8343 15.8348 15.8265C15.842 15.8194 15.8492 15.8124 15.8565 15.8056C17.2543 14.3941 18.0391 12.4874 18.0391 10.4999C18.0391 8.50018 17.2447 6.58236 15.8306 5.16833C14.4166 3.75431 12.4988 2.95992 10.4991 2.95992ZM17.8357 16.472C19.203 14.7925 19.9591 12.6852 19.9591 10.4999C19.9591 7.99097 18.9624 5.58478 17.1883 3.81069C15.4142 2.03659 13.008 1.03992 10.4991 1.03992C7.99011 1.03992 5.58393 2.03659 3.80983 3.81069C2.03574 5.58478 1.03906 7.99097 1.03906 10.4999C1.03906 13.0089 2.03574 15.4151 3.80983 17.1891C5.58393 18.9632 7.99011 19.9599 10.4991 19.9599C12.6876 19.9599 14.7979 19.2016 16.4787 17.8304L20.3196 21.6781C20.6942 22.0534 21.302 22.0539 21.6773 21.6793C22.0525 21.3048 22.0531 20.6969 21.6785 20.3217L17.8357 16.472Z"
+            fill="#171717" />
+    </svg>
+      <input class="categories-block__input" placeholder="Поиск" />
+    </div>
+      <ul class="section__list">
+              <li class="burger__menu"><i class="fa-solid fa-bars fa-2xl"></i></li>
+              <li class="categories-block__text-item text-p-18px-500-montserrat-sesondblack first">Новинки</li>
+              <a href="komanda.html"  class="categories-block__text-item text-p-18px-500-montserrat-sesondblack second">Команды</a>
+              <a href="man-category.html" class="categories-block__text-item text-p-18px-500-montserrat-sesondblack">Мужчинам</a>
+              <li class="search__img"><img src="./images/picon.png" alt="Search Icon"/></li>
+              <li class="categories-block__text-item text-p-18px-500-montserrat-sesondblack third">Женщинам</li>
+              <li class="categories-block__text-item text-p-18px-500-montserrat-sesondblack fourth">Дети</li>
+              <li class="categories-block__text-item text-p-18px-500-montserrat-sesondblack fifth">Распродажа</li>
+      </ul>
+      
+      <ul class="categories-block__icons">
+             <li> <img class="categories-block__icons-item heart__icon" src="./images/heart.png" alt="Heart Icon"/></д>
+              <li><img class="categories-block__icons-item shopping-cart__icon" src="./images/shopping-cart.png" alt="Shopping Cart Icon"/></li>
+              <li><img class="categories-block__icons-item log-in__icon" src="./images/log-in.png" alt="Log-in Icon"/></li>
+      </ul>
+  </section>
+</div>
           <!-- Footer -->
-          <footer>
+        <footer>
             <div class="footer__container">
                 <div class="footer-block-first">
                     <a href="/" class="footer__phone text-p-20px-500-montserrat">8 (800) 201-06-19</a>
@@ -150,10 +188,43 @@
                 </div>
             </div>
         </footer>
-        
       <script
       src="https://kit.fontawesome.com/6d7c112d81.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      window.onload = function() {
+    var swipers = document.querySelectorAll('.swiper');
+    swipers.forEach(function(swiperContainer) {
+        var swiper = new Swiper(swiperContainer, {
+            slidesPerView: 5,
+            direction: getDirection(),
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            on: {
+                resize: function () {
+                    swiper.changeDirection(getDirection());
+                },slideChange: function () {
+            var slides = swiper.slides;
+            slides.forEach(function(slide) {
+                slide.classList.add('blur');
+            });
+            var activeSlide = slides[swiper.activeIndex];
+            activeSlide.classList.remove('blur');
+        }
+            },
+        });
+    });
+    function getDirection() {
+        var windowWidth = window.innerWidth;
+        var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
+        return direction;
+    }
+}
+
+    </script>
   </body>
 </html>
