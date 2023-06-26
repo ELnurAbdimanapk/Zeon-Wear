@@ -25,12 +25,9 @@
     padding: 16px 20px;
 }
 .nav__list {
-    gap: 8px;
+  display: none;
 }
-.nav__list li:nth-child(1) {
-    display: none;
-}
-.nav__list li:nth-child(2) {
+.instagram,.telegram,.header__line,.phone {
     display: none;
 }
 .nav__list li svg {

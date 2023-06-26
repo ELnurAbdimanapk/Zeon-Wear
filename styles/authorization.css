@@ -83,10 +83,6 @@ margin-top: 10px;
   position: absolute;
   margin: 6.4rem 0 0 6.4rem;
 }
-.section__container {
-  margin: 16px 32px;
-}
-
 /* Media Screen */
 
 @media screen and (max-width: 320px) {

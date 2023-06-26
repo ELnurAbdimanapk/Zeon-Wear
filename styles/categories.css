@@ -20,13 +20,12 @@
 
 .categories-block__icons {
   display: flex;
-    gap: 56px;
-    align-items: center;
+  gap: 56px;
+  align-items: center;
 }
 .burger__menu {
   display: none;
 }
-
 
 .categories-block {
   width: 100%;
@@ -54,62 +53,32 @@
 @media screen and (max-width: 320px) {
   .categories-block {
     max-width: 280px;
-    box-shadow: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+    height: auto;
+    padding: 10px;
+    gap: 32px;
+    margin: auto;
   }
-  .heart__icon {
-    position: absolute;
-    top: 1.5rem;
-    left: 5rem;
+  .categories-block__icons {
+    gap: 32px;
   }
   .categories-block__icons-item {
     width: 2rem;
     height: 2rem;
   }
-  input,
-  .main__authorization-button {
-    width: 27.2rem;
-  }
-  .fa-regular {
-    position: absolute;
-    left: 23rem;
-    top: 17rem;
-  }
   .section__container {
     width: 28.4rem;
-    background-color: transparent;
-    box-shadow: none;
-  }
-  .categories-block__text-item,
-  .categories-block__input {
-    display: none;
-  }
-  .search__img {
-    position: absolute;
-    top: 1.2rem;
-    left: 12rem;
-  }
-  .search__img img {
-    width: 1.8rem;
-    height: 2.3rem;
-  }
-
-  .shopping-cart__icon {
-    position: absolute;
-    top: 1.5rem;
-    right: 4rem;
   }
   .burger__menu {
     display: block;
     width: 2rem;
     height: 2rem;
-    position: absolute;
-    top: 2.1rem;
-    left: -1rem;
+    order: 1;
   }
-
-  .fa-magnifying-glass {
-    top: 2.4rem;
-    left: 24rem;
+  .heart__icon {
+    order: 2;
   }
   .log-in__icon {
     display: none;
@@ -123,30 +92,27 @@
   .categories-block__input {
     display: none;
   }
-  .search__img {
-    position: absolute;
-    top: 1.2rem;
-    left: 12rem;
-  }
   .search__img img {
     width: 1.8rem;
     height: 2.3rem;
+    order: 3;
+  }
+  .input__search svg {
+    order: 5;
+  }
+  .heart__icon {
+    order: 4;
   }
   .burger__menu {
     display: block;
     width: 2rem;
     height: 2rem;
-    position: absolute;
-    top: 2.1rem;
-    left: -1rem;
   }
-  .fa-regular {
-    position: absolute;
-    left: 23rem;
-    top: 17rem;
-  }
-  .fa-magnifying-glass {
-    top: 2.4rem;
-    left: 24rem;
+ 
+  .input__search {
+    border: none;
+    padding: 0;
+    width: 20px;
+    height: 20px;
   }
 }
