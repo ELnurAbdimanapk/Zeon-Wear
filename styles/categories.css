@@ -12,6 +12,9 @@
 .section__list {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+   
+  
   gap: 6.4rem;
   font: 500 1.8rem/2.2rem "Montserrat";
 }
@@ -34,6 +37,7 @@
   border-radius: 24px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   background-color: white;
 }
 .fa-magnifying-glass {

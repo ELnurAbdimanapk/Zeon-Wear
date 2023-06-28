@@ -20,18 +20,21 @@
   height: 100%;
   background-color: #CDDAF1;
 }
+@media(max-width:603px){
+  .nav__list,.header__line{
+    display: none;
+  }
+
+}
+@media(max-width:430px){
+  .phone{
+    display: none;
+  }
+
+}
 @media screen and (max-width: 320px) {
   .header {
     padding: 16px 20px;
 }
-.nav__list {
-  display: none;
-}
-.instagram,.telegram,.header__line,.phone {
-    display: none;
-}
-.nav__list li svg {
-    width: 20px;
-    height: 20px
-}
+
 }
