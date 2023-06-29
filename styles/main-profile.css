@@ -141,6 +141,7 @@ main {
     width: 320px;
     margin-left: 0px;
     height: auto;
+      padding:8px ;
   }
   .profile {
     display: flex;

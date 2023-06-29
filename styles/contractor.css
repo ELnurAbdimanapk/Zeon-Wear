@@ -1,6 +1,8 @@
-.main {
+.wrapper{
+  width: 100%;
+}
+.main__container {
   max-width: 1392px;
-  background: #ffffff;
   border-radius: 16px;
   margin: auto;
 }
@@ -18,7 +20,6 @@
   gap: 10px;
   position: absolute;
   max-width: 898px;
-  height: 184px;
   left: 247px;
   top: 236px;
   text-align: center;
@@ -39,7 +40,6 @@
   padding: 0px;
   gap: 24px;
   max-width: 1082px;
-  height: 216px;
   margin: 9.1rem 0 6rem 15.5rem;
 }
 .preimushestvo {
@@ -59,7 +59,6 @@
   justify-content: center;
   align-items: flex-start;
   max-width: 1238px;
-  height: 425px;
   margin-left: 77px;
 }
 .strana-header {
@@ -79,16 +78,15 @@
   padding: 0px 0px 0px 56px;
   gap: 24px;
   width: 400px;
-  height: 425px;
 }
 
 /* Predlojeniye */
 
 .predlojeniye {
   max-width: 1392px;
-  height: 624px;
   background: url("/images/Rectangle\ 797.png");
   padding: 248px 134px;
+  background-repeat: no-repeat;
 }
 .predlojeniye h1 {
   width: 452px;
@@ -120,8 +118,68 @@
   line-height: 125%;
   margin-top: 42px;
 }
+@media (max-width: 1400px) {}
+
+@media (max-width: 1200px) {
+  .section__button{
+    left: 40%;
+  }
+  .section__title{
+    left: 200px;
+  }
+  .strana{
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 768px) {
+  .section__button{
+    left: 35%;
+  }
+  .section__title{
+    left: 70px;
+    padding: 0;
+  }
+  .preimushestvo{
+    margin :32px 32px;
+
+  }
+  .contractor-inf__first{
+    margin :32px 32px;
+
+  }
+}
+@media (max-width: 480px) {
+  .section__button{
+    left: 20%;
+  }
+  .section__title{
+    left: 20px;
+    padding: 0;
+  }
+  .preimushestvo{
+    margin :32px 32px;
+    font-size: 20px;
+
+  }
+  .predlojeniye h1{
+    font-size: 24px;
+  }
+  .strana-item{
+    padding: 10px;
+  }
+  .contractor-inf__first{
+    margin :32px 32px;
+
+  }
+  .contractor-inf__first h1{
+    font-size: 20px;
+  }
+}
 
 @media screen and (max-width: 320px) {
+  .strana{
+    flex-wrap: nowrap;
+  }
   .header {
     display: none;
   }
@@ -171,14 +229,12 @@
     justify-content: center;
     align-items: center;
     width: 280px;
-height: 918px;
 margin-left: 20px;
   }
   .strana-item {
     padding: 0px 0px 48px;
     gap: 24px;
     width: 280px;
-    height: 306px;
     margin-top: 16px;
     margin-bottom: 48px;
   }
@@ -188,13 +244,12 @@ margin-left: 20px;
   }
   .strana-item:nth-child(3) {
     width: 262px;
-    height: 120px;
+    height: 220px;
     font-size: 13px;
   }
   .predlojeniye {
     background-image: url("/images/Rectangle\ 797_mobile.png");
     width: 320px;
-    height: 359px;
     background-repeat: no-repeat;
     padding: 140px 20px;
     margin-top: 150px;
