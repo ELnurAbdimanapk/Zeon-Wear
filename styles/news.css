@@ -141,8 +141,6 @@ main {
   .main-news{
     max-width: 280px;
   }
- 
-  
   .secondary-news,.third-news{
     margin-left: 0px;
     display: flex;
