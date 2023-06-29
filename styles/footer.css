@@ -20,6 +20,7 @@
   width: 245.44px;
   height: 219px;
 }
+
 .footer__logo {
   text-transform: lowercase;
 }
@@ -33,6 +34,7 @@
   width: 222px;
   height: 108px;
 }
+
 .footer-block-fourth {
   display: flex;
   flex-direction: column;
@@ -41,78 +43,66 @@
   width: 336px;
   height: 46px;
 }
-.footer__nav__list{
+
+.footer__nav__list {
   display: flex;
   justify-content: space-between;
   width: 18.4rem;
 }
 
-@media (max-width: 991.98px) {
-  .footer__container{
-    width: 100%;
-    display: grid;
-    grid-template-columns: 200px 1fr 1fr;
+/* Media queries for adaptive design */
+
+@media (max-width: 1400px) {
+  .footer__container {
+    flex-wrap: wrap;
   }
 }
-@media (max-width: 767.98px) {
-  .footer__container{
-    grid-template-columns: 200px 1fr;
-  }
- 
-  }
-  @media (max-width: 500px){
-    .footer__container{
-      grid-template-columns: 1fr;
-    }
-   }
-@media screen and (max-width: 320px) {
-  
+
+@media (max-width: 1200px) {
   .footer__container {
-    flex-direction: column;
-    justify-content: flex-start;
-    margin: 0;
-    padding: 0;
-    width: 320px;
-    height: 686px;
-    border-radius: 0px;
-    gap: 0;
+    gap: 60px;
+    padding: 24px 0px 24px 32px;
   }
+
+  .footer-block-first,
+  .footer-block-second,
+  .footer-block-third,
+  .footer-block-fourth {
+    gap: 16px;
+    width: auto;
+    height: auto;
+  }
+
+  .footer__nav__list {
+    max-width: 320px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer__container {
+    gap: 40px;
+    padding: 12px 0px 12px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer__container {
+    padding: 20px 0px 6px 20px;
+  }
+
+  .footer-block-first {
+    order: 3;
+  }
+
   .footer-block-second {
     order: 1;
-    margin: 0;
-    margin: 3.2rem 0 0 2rem;
   }
-  .footer-block-third{
-    order: 2;
-    margin: 4rem 0 0 2rem;
 
-  }
-  .footer-block-first{
-    order: 3;
-    margin: 4rem 0 0 2rem;
-    display: flex;
-
-  }
-  .footer__logo{
-    order: 1;
-  }
-   .footer__phone {
+  .footer-block-third {
     order: 2;
   }
-  .footer__email{
-    order: 3;
-  }
-  .footer__nav__list{
+
+  .footer-block-fourth {
     order: 4;
   }
-
-
-  .footer-block-fourth{
-    order: 4;
-    margin: 4rem 0 0 2rem;
-    max-width: 28rem;
-  }
- 
-  
-  
 }

@@ -1,17 +1,21 @@
+.wrapper {
+  max-width: 100%;
+  background-color: aquamarine;
+}
 .academy__container {
-  max-width: 1461px;
-  height: 856px;
   background: #ffffff;
   border-radius: 16px;
   padding: 38px 32px;
 }
 
-.main {
+.main__container {
+  background-color: rgb(153, 87, 0);
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   max-width: 1856px;
   margin: auto;
+  gap: 32px;
 }
 .title {
   margin-bottom: 16px;
@@ -19,6 +23,7 @@
 .academy-product-item {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin-top: 24px;
 }
 .swipe__images {
@@ -38,22 +43,23 @@
   align-items: flex-start;
   gap: 20px;
   max-width: 366.5px;
-  height: 494px;
-margin-left: 20px;
-
+  margin-left: 20px;
 }
 .description {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin-top: 24px;
 }
 .product__description {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .color-box {
   width: 376px;
+  
 }
 
 .main {
@@ -68,7 +74,6 @@ margin-left: 20px;
   align-items: flex-start;
   gap: 16px;
   width: 363px;
-  height: 550px;
   background: #ffffff;
   border-radius: 16px;
   text-align: center;
@@ -89,7 +94,6 @@ textarea {
 }
 
 .comment {
-  height: 213px;
   padding: 10px;
 }
 button {
@@ -107,4 +111,51 @@ button {
 }
 .otmena {
   margin: auto;
+}
+@media screen and (max-width: 1199.98px) {
+}
+@media (max-width: 991.98px) {
+}
+@media (max-width: 767.98px) {
+  .academy__container {
+    padding: 8px 8px;
+    margin: auto;
+  }
+  
+}
+/* 320 */
+@media (max-width: 320px) {
+  .header{
+    display: none;
+  }
+  .main__container{
+    max-width: 320px;
+  }
+  .product-img {
+    width: 320px;
+    height: 320px;
+    border-radius: none;
+  }
+  .academy__container>p,.title{
+    display: none;
+  }
+  .academy__container{
+    margin: 0;
+    padding: 0;
+  }
+  .academy-product-item{
+    margin: 0;
+  }
+  .product__image{
+    max-width: 320px;
+  }
+  .swipe__images{
+    max-width: 320px;
+    margin-left: 20px;
+    overflow: hidden;
+  }
+  .color-box {
+    flex-wrap: wrap;
+  }
+  
 }
