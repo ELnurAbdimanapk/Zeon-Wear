@@ -1,3 +1,12 @@
+.wrapper{
+  width: 100%;
+}
+.main-block__container{
+  max-width: 1856px;
+ margin: 0 auto;
+}.main-block__categories{
+  flex-wrap: wrap;
+}
 .swiper {
   width: 100%;
   max-width: 1584px;
@@ -70,6 +79,14 @@
 .neighbor-slide {
   width: 110%;
   height: 110%;
+}
+@media screen and (max-width: 1199.98px) {}
+@media (max-width: 991.98px) {}
+@media (max-width: 767.98px) {
+  .swiper{
+    max-width: 760px;
+    text-overflow: ellipsis;
+  }
 }
 @media screen and (max-width: 320px) {
   .swiper-button-next {

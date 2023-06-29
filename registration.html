@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./styles/navbar.css" />
     <link rel="stylesheet" href="./styles/base.css" />
     <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/categories.css" />
     <link rel="stylesheet" href="./styles/registration.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
@@ -147,44 +148,30 @@
           </form>
         </div>
       </div>
-      <!-- Section -->
-      <div class="section__container">
-        <section class="categories-block">
-            <input class="categories-block__input" placeholder="Поиск" />
-            <i class="fa-solid fa-magnifying-glass fa-2xl"></i>
-            <div class="categories-block__text">
-                <div class="categories-block__first-part">
-                    <p class="categories-block__text-item text-p-18px-500-montserrat-sesondblack first">Новинки</p>
-                    <a  href="komanda.html" class="categories-block__text-item text-p-18px-500-montserrat-sesondblack second">Команды</a>
-                    <a href="man-category.html" class="categories-block__text-item text-p-18px-500-montserrat-sesondblack">Мужчинам</a>
-                </div>
-                <div class="burger__menu">
-                    <i class="fa-solid fa-bars fa-2xl"></i>
-                </div>
-                <div class="search__img">
-                    <img src="./images/picon.png" alt="Search Icon"/>
-                </div>
-    
-                <div class="categories-block__second-part">
-                    <p class="categories-block__text-item text-p-18px-500-montserrat-sesondblack third">Женщинам</p>
-                    <p class="categories-block__text-item text-p-18px-500-montserrat-sesondblack fourth">Дети</p>
-                    <p class="categories-block__text-item text-p-18px-500-montserrat-sesondblack fifth">Распродажа</p>
-                </div>
-            </div>
-    
-            <div class="categories-block__icons">
-                <span>
-                    <img class="categories-block__icons-item heart__icon" src="./images/heart.png" alt="Heart Icon"/>
-                </span>
-                <span>
-                    <img class="categories-block__icons-item shopping-cart__icon" src="./images/shopping-cart.png" alt="Shopping Cart Icon"/>
-                </span>
-                <span>
-                    <img class="categories-block__icons-item log-in__icon" src="./images/log-in.png" alt="Log-in Icon"/>
-                </span>
-            </div>
-        </section>
+     <!-- Section -->
+  <div class="section__container">
+    <section class="categories-block">
+      <div class="input__search">
+       <img src="./images/icons.svg">
+        <input class="categories-block__input" placeholder="Поиск" />
       </div>
+        <ul class="section__list">
+                <li class="burger__menu"><i class="fa-solid fa-bars fa-2xl"></i></li>
+                <li class="categories-block__text-item text-p-18px-500-montserrat-sesondblack first">Новинки</li>
+                <a href="komanda.html"  class="categories-block__text-item text-p-18px-500-montserrat-sesondblack second">Команды</a>
+                <a href="man-category.html" class="categories-block__text-item text-p-18px-500-montserrat-sesondblack">Мужчинам</a>
+                <li class="search__img"><img src="./images/picon.png" alt="Search Icon"/></li>
+                <li class="categories-block__text-item text-p-18px-500-montserrat-sesondblack third">Женщинам</li>
+                <li class="categories-block__text-item text-p-18px-500-montserrat-sesondblack fourth">Дети</li>
+                <li class="categories-block__text-item text-p-18px-500-montserrat-sesondblack fifth">Распродажа</li>
+        </ul>
+        <ul class="categories-block__icons">
+               <li> <img class="categories-block__icons-item heart__icon" src="./images/heart.png" alt="Heart Icon"/></д>
+                <li><img class="categories-block__icons-item shopping-cart__icon" src="./images/shopping-cart.png" alt="Shopping Cart Icon"/></li>
+                <li><img class="categories-block__icons-item log-in__icon" src="./images/log-in.png" alt="Log-in Icon"/></li>
+        </ul>
+    </section>
+  </div>
     </div>
     <script src="/js/authorization.js"></script>
   </body>

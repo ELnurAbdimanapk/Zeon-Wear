@@ -1,9 +1,13 @@
-.main{
+.wrapper {
+  width: 100%;
+}
+.container-block {
+  max-width: 1392px;
   display: flex;
   justify-content: space-between;
-  max-width: 1392px;
-  margin: auto;
+  flex-wrap: wrap;
   gap: 32px;
+  margin: auto;
 }
 .cart__container {
   max-width: 1002px;
@@ -22,7 +26,7 @@
   justify-content: flex-start;
   margin-top: 3.6rem;
   gap: 50px;
-  margin: 32px 0 0 32px ;
+  margin: 32px 0 0 32px;
 }
 .cart-item__image {
   border-radius: 16px 0px 0px 16px;
@@ -164,6 +168,7 @@
 .oformleniye-zakaza {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .oformleniye-input__item {
   display: flex;
@@ -231,114 +236,115 @@
   border: 1px solid #d4e3ff;
   margin: 2.4rem 0 2.4rem 0;
 }
-.aktivirovat{
-padding: 8px 20px;
-gap: 10px;
-width: 318px;
-height: 44px;
-background: #054EDB;
-border-radius: 16px;
-color: #ffffff;
-margin-top: 10px;
+.aktivirovat {
+  padding: 8px 20px;
+  gap: 10px;
+  width: 318px;
+  height: 44px;
+  background: #054edb;
+  border-radius: 16px;
+  color: #ffffff;
+  margin-top: 10px;
 }
-.checkbox{
+.checkbox {
   width: 20px;
-height: 20px;
-margin-right: 10px;
-margin-left: 31.5px;
+  height: 20px;
+  margin-right: 10px;
+  margin-left: 31.5px;
 }
 
 .black-btn {
   background: #171717;
 }
-.usloviya{
+.usloviya {
   margin: 20px 0 0 92px;
-  color: #054EDB;
+  color: #054edb;
 }
-
-@media screen and (max-width: 320px) {
-  .logo{
-    display: none;
-  }
-  .cart__container{
-    padding: 0px;
-    width: 280px;
-    margin: 0px;
-    margin-left: 20px;
-  }
-  .cart-block__container{
-    width: 280px;
-    height: auto;
-  }
- .cart-item__box{
+.count-price{
   display: flex;
-  flex-direction: column;
-  height: 176px;
- }
-
- /* Oformleni */
- .oformleniye__block{
-  display: flex;
-  flex-direction: column;
-  padding: 0px;
-
- }
-  .cart-count{
-    margin-left: -150px;
-    margin-top: 60px;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1199.98px) {
+  .oformleniye{
+    flex-wrap: wrap;
   }
-  .dostupno{
-    margin-left: -5px;
+}
+@media (max-width: 991.98px) {
+  .cart__container {
+    max-width: 990px;
   }
   .cart-item__block{
-    margin-bottom: 100px;
+    margin: 0;
+    gap: 20px;
   }
-  .cart__price{
-    margin-top: -70px;
-    margin-left: 60px;
-  }
-  .cart__size{
+}
+@media (max-width: 767.98px) {
+  .cart-item__box{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    height: auto;
+  }
+  
+}
+@media (max-width: 480px) {
+  .cart-item__image{
+    width: 106px;
+    height: 106px;
+  }
+  .cart-item__block{
+    gap: 8px;
+    max-width: 320px;
+    height: 320px;
   }
   .cart__container{
-    order: 1;
+    max-width: 320px;
+    margin: auto;
+
+  }
+  .count-price{
+    margin-left: -130px;
+  }
+  .oformleniye__block{
+    max-width: 320px;
+    padding: 20px 20px;
+    margin: auto;
+  }
+  .oformleniye-input__item {
+    max-width: 280px;
   }
   .oformleniye{
-    order: 2;
-    width: 280px;
-    display: flex;
-    flex-direction: column;
-    margin-left:20px;
-  }
-  .zakaz__block{
-    order: 3;
-  }
-  main{
-    flex-direction: column;
-    width: 320px;
-  }
-  .oformleniye-zakaza {
-    display: flex;
-    flex-direction: column;
-  }
-  .oformleniye-title{
-    margin-bottom: 20px;
-  }
-  .sposop-dostavki{
-    display: flex;
-    flex-direction: column;
-    width: 280px;
+    gap: 0px;
   }
   .besopasnost__block{
-    padding: 0px;
-    width: 280px;
+    gap: 0;
+    margin: auto;
+    max-width: 320px;
   }
   .zakaz__block{
-    width: 280px;
+    max-width: 320px;
+    margin: auto;
+  }
+  .container-block{
+    gap: 0px;
+  }
+  .aktivirovat{
+    max-width: 280px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .header{
+    padding: 0px;
+  }
+  .logo {
+    display: none;
+  }
+  .cart-item__box{
     padding: 0;
-    position: static;
-    margin-left: 20px;
-
+  }
+  .count-price{
+    margin-left: -100px;
+  }
+  .bezopasnost{
+    max-width: 280px;
   }
 }
